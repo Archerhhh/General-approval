@@ -1,8 +1,9 @@
 # _*_coding:utf-8_*_
 import logging
-import os.path
 import time
-import getcwd
+
+from testsuites import getcwd
+
 
 class logger(object):
 
@@ -14,7 +15,7 @@ class logger(object):
 
         #创建一个handler,用于写入日志文件
         rq=time.strftime('%Y%m%d%H%M',time.localtime(time.time()))
-        log_path = getcwd.get_cwd()+'/logs/'
+        log_path = getcwd.get_cwd() + '/logs/'
         #log_path=os.path.dirname(os.path.dirname(os.getcwd()))+'/logs/'
         # log_path = (os.path.dirname(os.getcwd()) + '/Logs/'
         # log_path = 'D:\PycharmProjects\General Approval'+'/logs/'

@@ -1,9 +1,10 @@
 #coding utf-8
 
 import unittest
-from pageobjects.login_logout.login_logout_page import Login_logout
-import getcwd
+
 from framework.browser_engine import BrowserEngine
+from pageobjects.login_logout.login_logout_page import Login_logout
+from testsuites import getcwd
 
 
 class Loginout(unittest.TestCase):
@@ -23,7 +24,7 @@ class Loginout(unittest.TestCase):
 
         u'''登录政务系统测试用例,用户名：admin'''
 
-        user_path = getcwd.get_cwd()+'/config/user_info.txt'
+        user_path = getcwd.get_cwd() + '/config/user_info.txt'
         loginpage= Login_logout(self.driver)
         user_file = open(user_path)
         all_values= user_file.readlines()

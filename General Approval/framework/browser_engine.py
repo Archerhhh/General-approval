@@ -1,9 +1,11 @@
 # _*_ coding:utf-8 _*_
 
 import configparser
-import getcwd
+
 from selenium import webdriver
+
 from framework.logger import logger
+from testsuites import getcwd
 
 logger = logger(logger="BrowserEngine").getlog()
 

@@ -1,20 +1,23 @@
 # coding = utf-8
-import HTMLTestRunner
-import unittest
 import time
-import getcwd
+import unittest
+
+import HTMLTestRunner
+
 from framework.email_report import EmailReport
+from testsuites import getcwd
+
 # from testsuites.login_logout.test_loginout import Loginout
 # from testsuites.approval_process.test_process import Process
 
 # 指定测试报告文件
-report_path = getcwd.get_cwd()+'/test_report/'
+report_path = getcwd.get_cwd() + '/test_report/'
 now = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime(time.time()))
 
 HtmlFile = report_path + now + "HTMLtemplate.html"
 
     # 加载所有测试套件中的所有测试用例
-suite_path = getcwd.get_cwd()+ r"\testsuites"
+suite_path = getcwd.get_cwd() + r"\testsuites"
 suite = unittest.TestLoader().discover(r"D:\PycharmProjects\General Approval\testsuites")
 
 # suite = unittest.TestSuite()
