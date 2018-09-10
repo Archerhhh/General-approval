@@ -7,9 +7,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 
+from framework import getcwd
 from framework.browser_engine import BrowserEngine
 from framework.logger import logger
-from testsuites import getcwd
 
 # create a logger instance
 logger = logger(logger="BasePage").getlog()

@@ -4,8 +4,8 @@ import configparser
 
 from selenium import webdriver
 
+from framework import getcwd
 from framework.logger import logger
-from testsuites import getcwd
 
 logger = logger(logger="BrowserEngine").getlog()
 

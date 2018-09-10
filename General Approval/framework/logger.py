@@ -2,7 +2,7 @@
 import logging
 import time
 
-from testsuites import getcwd
+from framework import getcwd
 
 
 class logger(object):

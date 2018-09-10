@@ -2,9 +2,9 @@
 
 import unittest
 
+from framework import getcwd
 from framework.browser_engine import BrowserEngine
 from pageobjects.login_logout.login_logout_page import Login_logout
-from testsuites import getcwd
 
 
 class Loginout(unittest.TestCase):
