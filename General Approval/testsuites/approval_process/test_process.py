@@ -27,9 +27,8 @@ class Process(unittest.TestCase):
             message = process.get_message()
             self.assertEqual("进入材料审核", message)
         except Exception as e:
-            raise e
-        finally:
             process.get_windows_img()
+            raise e
 
     def test_02upload(self):
         u"""上传材料并填写审核结果"""
@@ -39,9 +38,8 @@ class Process(unittest.TestCase):
             message = process.get_alertmessage()
             self.assertEqual("保存成功", message)
         except Exception as e:
-            raise e
-        finally:
             process.get_windows_img()
+            raise e
 
     def test_03approve(self):
         u"""点击进入材料审核"""
@@ -51,9 +49,8 @@ class Process(unittest.TestCase):
             message = process.get_message()
             self.assertEqual("进入受理", message)
         except Exception as e:
-            raise e
-        finally:
             process.get_windows_img()
+            raise e
 
     def test_04toshouli(self):
         u"""点击进入受理"""
@@ -63,9 +60,8 @@ class Process(unittest.TestCase):
             message = process.get_message()
             self.assertEqual("进入承办", message)
         except Exception as e:
-            raise e
-        finally:
             process.get_windows_img()
+            raise e
 
     def test_05shouli(self):
         u"""点击受理"""
@@ -75,9 +71,8 @@ class Process(unittest.TestCase):
             message = process.get_alertmessage()
             self.assertEqual("受理之后，办件开始倒计时。", message)
         except Exception as e:
-            raise e
-        finally:
             process.get_windows_img()
+            raise e
 
     def test_06tochenban(self):
         u"""点击进入承办"""
@@ -87,9 +82,8 @@ class Process(unittest.TestCase):
             message = process.get_message()
             self.assertEqual("转入审核", message)
         except Exception as e:
-            raise e
-        finally:
             process.get_windows_img()
+            raise e
 
     def test_07toapproval(self):
         u"""点击保存承办并进入审核"""
@@ -99,9 +93,8 @@ class Process(unittest.TestCase):
             message = process.get_message()
             self.assertEqual("进入批准", message)
         except Exception as e:
-            raise e
-        finally:
             process.get_windows_img()
+            raise e
 
     def test_08took(self):
         u"""点击保存审核并进入批准"""
@@ -111,9 +104,8 @@ class Process(unittest.TestCase):
             message = process.get_message()
             self.assertEqual("办结", message)
         except Exception as e:
-            raise e
-        finally:
             process.get_windows_img()
+            raise e
 
     def test_09tonext(self):
         u"""点击保存批准并进入办结"""
@@ -123,9 +115,8 @@ class Process(unittest.TestCase):
             message = process.get_message()
             self.assertEqual("下一步", message)
         except Exception as e:
-            raise e
-        finally:
             process.get_windows_img()
+            raise e
 
     def test_10tostep(self):
         u"""点击保存审批意见并点击下一步"""
@@ -135,9 +126,8 @@ class Process(unittest.TestCase):
             message = process.get_message()
             self.assertEqual("结束", message)
         except Exception as e:
-            raise e
-        finally:
             process.get_windows_img()
+            raise e
 
     def test_11end(self):
         u"""点击出件并点击结束"""
@@ -148,11 +138,12 @@ class Process(unittest.TestCase):
             number = len(handles)    # 获取返回的list的长度
             self.assertEqual(1, number)
         except Exception as e:
-            raise e
-        else:
-            handle = ''.join(handles)   # 将列表类型转换为字符串类型
-            self.driver.switch_to_window(handle)
             process.get_windows_img()
+            raise e
+        # else:
+        #     handle = ''.join(handles)   # 将列表类型转换为字符串类型
+        #     self.driver.switch_to_window(handle)
+        #     process.get_windows_img()
 
 if __name__ == '__main__':
     unittest.main()

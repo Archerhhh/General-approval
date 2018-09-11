@@ -33,11 +33,11 @@ class Loginout(unittest.TestCase):
         username = values.split(',')[0]
         userpasswrod = values.split(',')[1]
         loginpage.login(username,userpasswrod)
-        loginpage.get_windows_img()
         try:
             title = loginpage.get_title()
             self.assertEqual ('网上审批系统',title)
         except Exception as e:
+            loginpage.get_windows_img()
             raise e
         '''
         if page_text=="网上审批系统":
