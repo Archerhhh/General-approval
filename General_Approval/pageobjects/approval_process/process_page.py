@@ -59,7 +59,7 @@ class ProcessPage(BasePage):
         self.click(self.confirm_button)
         self.top_windows()
         self.select_frame(self.frame2)
-        self.wait_elvalue(self.enterprise_name, '小企业')
+        self.wait_elvalue(self.enterprise_name, '橡皮有限公司')
         self.scroll_foot()
         self.type(self.name,name)
         self.type(self.id_number,id_number)
