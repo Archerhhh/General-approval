@@ -17,6 +17,7 @@ class ProcessPage(BasePage):
 
     # 填写企业信息
     frame2 ='iframeId'
+    wait_frame2 =(By.ID,'iframeId')
     choose_button = 'xpath=>//*[@id="selectCustQY"]'
     wait_frame3 = (By.NAME,'ShowCustInfoList')
     wait_choose = (By.XPATH,'//*[@id="datagrid-row-r1-1-3"]/td[2]/div/input')
@@ -48,7 +49,7 @@ class ProcessPage(BasePage):
         self.select_windows()
 
     def add_message(self,name,id_number,phone_number):    #添加办件信息与保存
-        self.select_frame(self.frame2)
+        self.wait_goframe(self.wait_frame2)
         self.click(self.choose_button)
         self.top_windows()
         self.wait_goframe(self.wait_frame3)
@@ -65,7 +66,7 @@ class ProcessPage(BasePage):
         self.top_windows()
         self.click(self.save_button)
         #self.wait_element(self.alert_message)
-        time.sleep(4)
+        time.sleep(3)
 
     def get_message(self):
         message1 = self.get_element_text(self.next_material)
@@ -135,14 +136,14 @@ class ProcessPage(BasePage):
         self.select_dropdown(self.select_result,text)
         self.top_windows()
         self.click(self.next_material)
-        time.sleep(4)
+        time.sleep(3)
 
         #点击进入受理
     def enter_shouli(self):
         self.click(self.save_button)
         time.sleep(1)
         self.click(self.next_material)
-        time.sleep(4)
+        time.sleep(3)
 
         #点击受理
     def shouli(self):
@@ -158,14 +159,14 @@ class ProcessPage(BasePage):
         #self.wait_element(self.wait_tiaoguo)
         time.sleep(1)
         self.click(self.cancel_button)
-        time.sleep(4)
+        time.sleep(3)
 
         #点击保存承办并转入审核 #点击保存审核并进入批准，# 点击保存办结并进入下一步，此处共用。
     def save_chenban(self):
         self.click(self.save_button)
         time.sleep(1)
         self.click(self.next_material)
-        time.sleep(4)
+        time.sleep(3)
 
         #点击出件并结束
     def end(self):
