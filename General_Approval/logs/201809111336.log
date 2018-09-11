@@ -1,0 +1,145 @@
+2018-09-11 13:36:55,621 - BrowserEngine - INFO - you had select Chrome browser.
+2018-09-11 13:36:55,621 - BrowserEngine - INFO - The test server url is:http://192.168.0.133:7001/ApprBase
+2018-09-11 13:37:00,402 - BrowserEngine - INFO - Starting chrome browser.
+2018-09-11 13:37:00,895 - BrowserEngine - INFO - Open url:http://192.168.0.133:7001/ApprBase
+2018-09-11 13:37:02,023 - BrowserEngine - INFO - Maxmize the current window.
+2018-09-11 13:37:02,025 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-09-11 13:37:02,051 - BasePage - INFO - Had find the element '  ' successful by id via value: j_username 
+2018-09-11 13:37:02,103 - BasePage - INFO - Had type ' ceshi1 ' in inputBox
+2018-09-11 13:37:02,131 - BasePage - INFO - Had find the element '  ' successful by id via value: j_password 
+2018-09-11 13:37:02,195 - BasePage - INFO - Had type ' abc123456! ' in inputBox
+2018-09-11 13:37:02,222 - BasePage - INFO - Had find the element ' 登    录 ' successful by xpath via value: //*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1] 
+2018-09-11 13:37:02,500 - BasePage - INFO - The element ' 登    录 ' was clicked.
+2018-09-11 13:37:02,768 - BasePage - INFO - had wait for the element: 欢迎您！
+2018-09-11 13:37:02,820 - BasePage - INFO - Had find the element ' 办件登记 ' successful by xpath via value: //*[@id="j-nav"]/li[2]/a/span 
+2018-09-11 13:37:02,866 - BasePage - INFO - Had find the element ' 普通窗口登记 ' successful by xpath via value: //*[@id="j-033-tree"]/ul/li/a 
+2018-09-11 13:37:02,919 - BasePage - INFO - The element ' 普通窗口登记 ' was clicked.
+2018-09-11 13:37:03,934 - BasePage - INFO - had changed the frame
+2018-09-11 13:37:03,964 - BasePage - INFO - had wait for the element: 测试局
+2010828
+限时办结
+测试局-子部门
+窗口登记
+绿色通道登记
+2018-09-11 13:37:03,989 - BasePage - INFO - Had find the element ' 窗口登记 ' successful by xpath via value: //body/div[2]/div/div/div/div[1]/div[2]/div[2]/table/tbody/tr/td[5]/div/a[1]/font 
+2018-09-11 13:37:04,212 - BasePage - INFO - The element ' 窗口登记 ' was clicked.
+2018-09-11 13:37:04,221 - BasePage - INFO - had came back to the main frame
+2018-09-11 13:37:05,234 - BasePage - INFO - switch to second window:CDwindow-2B5FE2B36862473295F5D279931D7931 
+2018-09-11 13:37:06,366 - BasePage - INFO - hand wait and changed frame
+2018-09-11 13:37:06,389 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="selectCustQY"] 
+2018-09-11 13:37:06,504 - BasePage - INFO - The element '  ' was clicked.
+2018-09-11 13:37:06,542 - BasePage - INFO - had came back to the main frame
+2018-09-11 13:37:06,714 - BasePage - INFO - hand wait and changed frame
+2018-09-11 13:37:06,865 - BasePage - INFO - had wait for the element: 
+2018-09-11 13:37:06,882 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="datagrid-row-r1-1-3"]/td[2]/div/input 
+2018-09-11 13:37:06,978 - BasePage - INFO - The element '  ' was clicked.
+2018-09-11 13:37:07,008 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="selectedButton"] 
+2018-09-11 13:37:07,169 - BasePage - INFO - The element '  ' was clicked.
+2018-09-11 13:37:07,174 - BasePage - INFO - had came back to the main frame
+2018-09-11 13:37:07,190 - BasePage - INFO - had changed the frame
+2018-09-11 13:37:07,209 - BasePage - INFO - had wait for the element input value:小企业
+2018-09-11 13:37:07,214 - BasePage - INFO - had scroll to the foot
+2018-09-11 13:37:07,243 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="custContactPerson"] 
+2018-09-11 13:37:07,322 - BasePage - INFO - Had type ' damon ' in inputBox
+2018-09-11 13:37:07,347 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="idCard"] 
+2018-09-11 13:37:07,484 - BasePage - INFO - Had type ' 362421199303019322 ' in inputBox
+2018-09-11 13:37:07,507 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="custMobile"] 
+2018-09-11 13:37:07,589 - BasePage - INFO - Had type ' 13148907967 ' in inputBox
+2018-09-11 13:37:07,590 - BasePage - INFO - had came back to the main frame
+2018-09-11 13:37:07,614 - BasePage - INFO - Had find the element ' 保存 ' successful by id via value: doSave 
+2018-09-11 13:37:07,711 - BasePage - INFO - The element ' 保存 ' was clicked.
+2018-09-11 13:37:10,780 - BasePage - INFO - Had find the element ' 进入材料审核 ' successful by id via value: doSend 
+2018-09-11 13:37:10,790 - BasePage - INFO - The element_text is: 进入材料审核
+2018-09-11 13:37:10,818 - BasePage - INFO - Had find the element ' 申报材料 ' successful by id via value: nav_sbcl 
+2018-09-11 13:37:10,903 - BasePage - INFO - The element ' 申报材料 ' was clicked.
+2018-09-11 13:37:11,070 - BasePage - INFO - hand wait and changed frame
+2018-09-11 13:37:11,101 - BasePage - INFO - had wait for the element: 上传额外材料
+2018-09-11 13:37:11,115 - BasePage - INFO - Had find the element ' 上传额外材料 ' successful by xpath via value: //*[@id="subWrap"]/div[1]/div/div/div/div[1]/a[1] 
+2018-09-11 13:37:11,226 - BasePage - INFO - The element ' 上传额外材料 ' was clicked.
+2018-09-11 13:37:11,229 - BasePage - INFO - had came back to the main frame
+2018-09-11 13:37:11,264 - BasePage - INFO - hand wait and changed frame
+2018-09-11 13:37:12,009 - BasePage - INFO - Had find the element ' 请选择文件 ' successful by xpath via value: //*[@id="i_select_files"]/div 
+2018-09-11 13:37:12,076 - BasePage - INFO - The element ' 请选择文件 ' was clicked.
+2018-09-11 13:37:17,540 - BasePage - INFO - Had find the element ' 开始上传 ' successful by xpath via value: /html/body/button[1] 
+2018-09-11 13:37:17,617 - BasePage - INFO - The element ' 开始上传 ' was clicked.
+2018-09-11 13:37:20,626 - BasePage - INFO - had came back to the main frame
+2018-09-11 13:37:20,697 - BasePage - INFO - Had find the element ' × ' successful by xpath via value: /html/body/div[6]/div/table/tbody/tr[1]/td/button 
+2018-09-11 13:37:20,761 - BasePage - INFO - The element ' × ' was clicked.
+2018-09-11 13:37:20,776 - BasePage - INFO - had changed the frame
+2018-09-11 13:37:21,854 - BasePage - INFO - Had find the element ' 请选择
+合格
+不合格
+免交 ' successful by id via value: auditResult0 
+2018-09-11 13:37:21,916 - BasePage - INFO - had select 合格
+2018-09-11 13:37:21,944 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="datagrid-row-r1-2-0"]/td[9]/div/input 
+2018-09-11 13:37:22,000 - BasePage - INFO - Had type ' 审核通过 ' in inputBox
+2018-09-11 13:37:22,028 - BasePage - INFO - Had find the element ' 纸质材料齐全 ' successful by xpath via value: //*[@id="subWrap"]/div[1]/div/div/div/div[1]/a[2] 
+2018-09-11 13:37:22,176 - BasePage - INFO - The element ' 纸质材料齐全 ' was clicked.
+2018-09-11 13:37:22,181 - BasePage - INFO - had came back to the main frame
+2018-09-11 13:37:22,236 - BasePage - INFO - hand wait and changed frame
+2018-09-11 13:37:22,914 - BasePage - INFO - Had find the element '  ' successful by id via value: contents 
+2018-09-11 13:37:22,967 - BasePage - INFO - Had type ' 纸质材料收集完毕 ' in inputBox
+2018-09-11 13:37:22,994 - BasePage - INFO - Had find the element ' 保存 ' successful by id via value: savePaperStuff 
+2018-09-11 13:37:23,067 - BasePage - INFO - The element ' 保存 ' was clicked.
+2018-09-11 13:37:23,575 - BasePage - INFO - had wait for the alert
+2018-09-11 13:37:23,607 - BasePage - INFO - closed alert and alert message is 保存成功
+2018-09-11 13:37:23,624 - BasePage - INFO - had came back to the main frame
+2018-09-11 13:37:23,638 - BasePage - INFO - had changed the frame
+2018-09-11 13:37:23,665 - BasePage - INFO - Had find the element '         请选择审核结果
+        合格
+        不合格
+        信任后补
+        免交
+        ' successful by id via value: attaStatusSelect 
+2018-09-11 13:37:23,716 - BasePage - INFO - had select 合格
+2018-09-11 13:37:23,719 - BasePage - INFO - had came back to the main frame
+2018-09-11 13:37:23,733 - BasePage - INFO - Had find the element ' 进入材料审核 ' successful by id via value: doSend 
+2018-09-11 13:37:26,011 - BasePage - INFO - The element ' 进入材料审核 ' was clicked.
+2018-09-11 13:37:29,074 - BasePage - INFO - Had find the element ' 进入受理 ' successful by id via value: doSend 
+2018-09-11 13:37:29,084 - BasePage - INFO - The element_text is: 进入受理
+2018-09-11 13:37:29,114 - BasePage - INFO - Had find the element ' 同意审核 ' successful by id via value: doSave 
+2018-09-11 13:37:30,133 - BasePage - INFO - The element ' 同意审核 ' was clicked.
+2018-09-11 13:37:31,191 - BasePage - INFO - Had find the element ' 进入受理 ' successful by id via value: doSend 
+2018-09-11 13:37:31,794 - BasePage - INFO - The element ' 进入受理 ' was clicked.
+2018-09-11 13:37:35,322 - BasePage - INFO - Had find the element ' 进入承办 ' successful by id via value: doSend 
+2018-09-11 13:37:35,338 - BasePage - INFO - The element_text is: 进入承办
+2018-09-11 13:37:35,446 - BasePage - INFO - Had find the element ' 受理 ' successful by id via value: doSave 
+2018-09-11 13:37:35,486 - BasePage - INFO - The element ' 受理 ' was clicked.
+2018-09-11 13:37:36,488 - BasePage - INFO - had wait for the alert
+2018-09-11 13:37:36,503 - BasePage - INFO - closed alert and alert message is 受理之后，办件开始倒计时。
+2018-09-11 13:37:36,598 - BasePage - INFO - Had find the element ' 进入承办 ' successful by id via value: doSend 
+2018-09-11 13:37:36,726 - BasePage - INFO - The element ' 进入承办 ' was clicked.
+2018-09-11 13:37:37,782 - BasePage - INFO - Had find the element ' 跳过 ' successful by xpath via value: //button[text()="跳过"] 
+2018-09-11 13:37:38,283 - BasePage - INFO - The element ' 跳过 ' was clicked.
+2018-09-11 13:37:42,075 - BasePage - INFO - Had find the element ' 转入审核 ' successful by id via value: doSend 
+2018-09-11 13:37:42,123 - BasePage - INFO - The element_text is: 转入审核
+2018-09-11 13:37:42,200 - BasePage - INFO - Had find the element ' 保存承办 ' successful by id via value: doSave 
+2018-09-11 13:37:43,166 - BasePage - INFO - The element ' 保存承办 ' was clicked.
+2018-09-11 13:37:44,235 - BasePage - INFO - Had find the element ' 转入审核 ' successful by id via value: doSend 
+2018-09-11 13:37:44,668 - BasePage - INFO - The element ' 转入审核 ' was clicked.
+2018-09-11 13:37:48,408 - BasePage - INFO - Had find the element ' 进入批准 ' successful by id via value: doSend 
+2018-09-11 13:37:48,451 - BasePage - INFO - The element_text is: 进入批准
+2018-09-11 13:37:48,529 - BasePage - INFO - Had find the element ' 保存审核 ' successful by id via value: doSave 
+2018-09-11 13:37:49,443 - BasePage - INFO - The element ' 保存审核 ' was clicked.
+2018-09-11 13:37:50,506 - BasePage - INFO - Had find the element ' 进入批准 ' successful by id via value: doSend 
+2018-09-11 13:37:50,941 - BasePage - INFO - The element ' 进入批准 ' was clicked.
+2018-09-11 13:37:54,649 - BasePage - INFO - Had find the element ' 办结 ' successful by id via value: doSend 
+2018-09-11 13:37:54,675 - BasePage - INFO - The element_text is: 办结
+2018-09-11 13:37:54,743 - BasePage - INFO - Had find the element ' 保存批准 ' successful by id via value: doSave 
+2018-09-11 13:37:55,640 - BasePage - INFO - The element ' 保存批准 ' was clicked.
+2018-09-11 13:37:56,697 - BasePage - INFO - Had find the element ' 办结 ' successful by id via value: doSend 
+2018-09-11 13:37:57,216 - BasePage - INFO - The element ' 办结 ' was clicked.
+2018-09-11 13:38:00,792 - BasePage - INFO - Had find the element ' 下一步 ' successful by id via value: doSend 
+2018-09-11 13:38:00,816 - BasePage - INFO - The element_text is: 下一步
+2018-09-11 13:38:00,921 - BasePage - INFO - Had find the element ' 保存内部审批完成意见 ' successful by id via value: doSave 
+2018-09-11 13:38:01,843 - BasePage - INFO - The element ' 保存内部审批完成意见 ' was clicked.
+2018-09-11 13:38:02,897 - BasePage - INFO - Had find the element ' 下一步 ' successful by id via value: doSend 
+2018-09-11 13:38:03,533 - BasePage - INFO - The element ' 下一步 ' was clicked.
+2018-09-11 13:38:06,937 - BasePage - INFO - Had find the element ' 结束 ' successful by id via value: doSend 
+2018-09-11 13:38:07,000 - BasePage - INFO - The element_text is: 结束
+2018-09-11 13:38:07,070 - BasePage - INFO - Had find the element ' 出件 ' successful by id via value: doSave 
+2018-09-11 13:38:08,008 - BasePage - INFO - The element ' 出件 ' was clicked.
+2018-09-11 13:38:09,073 - BasePage - INFO - Had find the element ' 结束 ' successful by id via value: doSend 
+2018-09-11 13:38:09,168 - BasePage - INFO - The element ' 结束 ' was clicked.
+2018-09-11 13:38:10,248 - BasePage - INFO - Had find the element ' 跳过 ' successful by xpath via value: //button[text()="跳过"] 
+2018-09-11 13:38:10,609 - BasePage - INFO - The element ' 跳过 ' was clicked.

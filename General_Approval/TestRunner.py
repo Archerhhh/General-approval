@@ -18,7 +18,7 @@ HtmlFile = report_path + now + "HTMLtemplate.html"
 
     # 加载所有测试套件中的所有测试用例
 suite_path = getcwd.get_cwd() + r"\testsuites"
-suite = unittest.TestLoader().discover(r"D:\PycharmProjects\General Approval\testsuites")
+suite = unittest.TestLoader().discover(suite_path)
 
 # suite = unittest.TestSuite()
 # suite.addTest(Loginout('test_login'))

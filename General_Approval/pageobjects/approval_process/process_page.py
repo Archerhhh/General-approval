@@ -3,6 +3,7 @@ import time
 import os
 from framework.base_page import BasePage
 from selenium.webdriver.common.by import By
+from framework import getcwd
 
 class ProcessPage(BasePage):
 

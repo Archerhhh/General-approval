@@ -1,0 +1,61 @@
+2018-09-11 14:10:35,672 - BrowserEngine - INFO - you had select Chrome browser.
+2018-09-11 14:10:35,672 - BrowserEngine - INFO - The test server url is:http://192.168.0.133:7001/ApprBase
+2018-09-11 14:10:40,418 - BrowserEngine - INFO - Starting chrome browser.
+2018-09-11 14:10:40,963 - BrowserEngine - INFO - Open url:http://192.168.0.133:7001/ApprBase
+2018-09-11 14:10:42,127 - BrowserEngine - INFO - Maxmize the current window.
+2018-09-11 14:10:42,128 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-09-11 14:10:42,155 - BasePage - INFO - Had find the element '  ' successful by id via value: j_username 
+2018-09-11 14:10:42,205 - BasePage - INFO - Had type ' ceshi1 ' in inputBox
+2018-09-11 14:10:42,230 - BasePage - INFO - Had find the element '  ' successful by id via value: j_password 
+2018-09-11 14:10:42,290 - BasePage - INFO - Had type ' abc123456! ' in inputBox
+2018-09-11 14:10:42,316 - BasePage - INFO - Had find the element ' 登    录 ' successful by xpath via value: //*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1] 
+2018-09-11 14:10:42,781 - BasePage - INFO - The element ' 登    录 ' was clicked.
+2018-09-11 14:10:43,031 - BasePage - INFO - had wait for the element: 欢迎您！
+2018-09-11 14:10:43,078 - BasePage - INFO - Had find the element ' 办件登记 ' successful by xpath via value: //*[@id="j-nav"]/li[2]/a/span 
+2018-09-11 14:10:43,127 - BasePage - INFO - Had find the element ' 普通窗口登记 ' successful by xpath via value: //*[@id="j-033-tree"]/ul/li/a 
+2018-09-11 14:10:43,181 - BasePage - INFO - The element ' 普通窗口登记 ' was clicked.
+2018-09-11 14:10:44,216 - BasePage - INFO - had changed the frame
+2018-09-11 14:10:44,276 - BasePage - INFO - had wait for the element: 测试局
+2010828
+限时办结
+测试局-子部门
+窗口登记
+绿色通道登记
+2018-09-11 14:10:44,301 - BasePage - INFO - Had find the element ' 窗口登记 ' successful by xpath via value: //body/div[2]/div/div/div/div[1]/div[2]/div[2]/table/tbody/tr/td[5]/div/a[1]/font 
+2018-09-11 14:10:44,468 - BasePage - INFO - The element ' 窗口登记 ' was clicked.
+2018-09-11 14:10:44,471 - BasePage - INFO - had came back to the main frame
+2018-09-11 14:10:45,476 - BasePage - INFO - switch to second window:CDwindow-D3BC069E7503D1F7F4D633234AD23342 
+2018-09-11 14:10:46,603 - BasePage - INFO - hand wait and changed frame
+2018-09-11 14:10:46,633 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="selectCustQY"] 
+2018-09-11 14:10:46,741 - BasePage - INFO - The element '  ' was clicked.
+2018-09-11 14:10:46,745 - BasePage - INFO - had came back to the main frame
+2018-09-11 14:10:46,969 - BasePage - INFO - hand wait and changed frame
+2018-09-11 14:10:47,118 - BasePage - INFO - had wait for the element: 
+2018-09-11 14:10:47,134 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="datagrid-row-r1-1-3"]/td[2]/div/input 
+2018-09-11 14:10:47,233 - BasePage - INFO - The element '  ' was clicked.
+2018-09-11 14:10:47,262 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="selectedButton"] 
+2018-09-11 14:10:47,367 - BasePage - INFO - The element '  ' was clicked.
+2018-09-11 14:10:47,371 - BasePage - INFO - had came back to the main frame
+2018-09-11 14:10:47,385 - BasePage - INFO - had changed the frame
+2018-09-11 14:11:07,558 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"nav_sbcl"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-09-11 14:11:07,858 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2018-09-11 14:11:07,860 - BasePage - INFO - had came back to the main frame
+2018-09-11 14:11:07,867 - BasePage - INFO - had changed the frame
+2018-09-11 14:11:17,904 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"attaStatusSelect"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-09-11 14:11:18,226 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2018-09-11 14:11:28,271 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-09-11 14:11:28,667 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2018-09-11 14:11:38,714 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2018-09-11 14:11:39,146 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
