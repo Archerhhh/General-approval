@@ -65,7 +65,7 @@ class ProcessPage(BasePage):
         self.top_windows()
         self.click(self.save_button)
         #self.wait_element(self.alert_message)
-        time.sleep(3)
+        time.sleep(4)
 
     def get_message(self):
         message1 = self.get_element_text(self.next_material)
@@ -135,14 +135,14 @@ class ProcessPage(BasePage):
         self.select_dropdown(self.select_result,text)
         self.top_windows()
         self.click(self.next_material)
-        time.sleep(3)
+        time.sleep(4)
 
         #点击进入受理
     def enter_shouli(self):
         self.click(self.save_button)
         time.sleep(1)
         self.click(self.next_material)
-        time.sleep(3)
+        time.sleep(4)
 
         #点击受理
     def shouli(self):
@@ -158,7 +158,7 @@ class ProcessPage(BasePage):
         #self.wait_element(self.wait_tiaoguo)
         time.sleep(1)
         self.click(self.cancel_button)
-        time.sleep(3)
+        time.sleep(4)
 
         #点击保存承办并转入审核 #点击保存审核并进入批准，# 点击保存办结并进入下一步，此处共用。
     def save_chenban(self):

@@ -3,6 +3,7 @@ import smtplib
 from email.mime.text import MIMEText
 import time,os
 from framework.logger import logger
+from framework import getcwd
 
 logger = logger(logger="EmailReport").getlog()
 class EmailReport():
@@ -32,7 +33,8 @@ class EmailReport():
         logger.info('email has sent')
 
     def send_report(self):
-         result_dir = r'D:\PycharmProjects\General Approval\test_report'
+         dir = getcwd.get_cwd()
+         result_dir = dir +'/test_report'
          lists = os.listdir(result_dir)
          lists.sort(key= lambda fn: os.path.getatime(result_dir+"\\"+fn))
          #找到最新生成的文件
