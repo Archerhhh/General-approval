@@ -1,0 +1,39 @@
+2018-09-12 11:13:07,650 - BrowserEngine - INFO - you had select Chrome browser.
+2018-09-12 11:13:07,650 - BrowserEngine - INFO - The test server url is:http://192.168.0.133:7001/ApprBase
+2018-09-12 11:13:12,390 - BrowserEngine - INFO - Starting chrome browser.
+2018-09-12 11:13:15,980 - BrowserEngine - INFO - Open url:http://192.168.0.133:7001/ApprBase
+2018-09-12 11:13:17,111 - BrowserEngine - INFO - Maxmize the current window.
+2018-09-12 11:13:17,111 - BrowserEngine - INFO - Set implicitly wait 8 seconds.
+2018-09-12 11:13:17,127 - BasePage - INFO - Had find the element '  ' successful by id via value: j_username 
+2018-09-12 11:13:17,204 - BasePage - INFO - Had type ' ceshi1 ' in inputBox
+2018-09-12 11:13:17,230 - BasePage - INFO - Had find the element '  ' successful by id via value: j_password 
+2018-09-12 11:13:17,292 - BasePage - INFO - Had type ' abc123456! ' in inputBox
+2018-09-12 11:13:17,318 - BasePage - INFO - Had find the element ' 登    录 ' successful by xpath via value: //*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1] 
+2018-09-12 11:13:17,587 - BasePage - INFO - The element ' 登    录 ' was clicked.
+2018-09-12 11:13:17,859 - BasePage - INFO - had wait for the element: 欢迎您！
+2018-09-12 11:13:17,901 - BasePage - INFO - Had find the element ' 办件登记 ' successful by xpath via value: //*[@id="j-nav"]/li[2]/a/span 
+2018-09-12 11:13:17,953 - BasePage - INFO - Had find the element ' 普通窗口登记 ' successful by xpath via value: //*[@id="j-033-tree"]/ul/li/a 
+2018-09-12 11:13:18,004 - BasePage - INFO - The element ' 普通窗口登记 ' was clicked.
+2018-09-12 11:13:19,041 - BasePage - INFO - had changed the frame
+2018-09-12 11:13:19,088 - BasePage - INFO - had wait for the element: 测试局
+2010828
+限时办结
+测试局-子部门
+窗口登记
+绿色通道登记
+2018-09-12 11:13:19,119 - BasePage - INFO - Had find the element ' 窗口登记 ' successful by xpath via value: //body/div[2]/div/div/div/div[1]/div[2]/div[2]/table/tbody/tr/td[5]/div/a[1]/font 
+2018-09-12 11:13:19,301 - BasePage - INFO - The element ' 窗口登记 ' was clicked.
+2018-09-12 11:13:19,305 - BasePage - INFO - had came back to the main frame
+2018-09-12 11:13:20,317 - BasePage - INFO - switch to second window:CDwindow-128483807394362EC616A3070D81EB88 
+2018-09-12 11:13:21,448 - BasePage - INFO - hand wait and changed frame
+2018-09-12 11:13:21,474 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="selectCustQY"] 
+2018-09-12 11:13:21,584 - BasePage - INFO - The element '  ' was clicked.
+2018-09-12 11:13:21,586 - BasePage - INFO - had came back to the main frame
+2018-09-12 11:13:21,805 - BasePage - INFO - hand wait and changed frame
+2018-09-12 11:13:21,951 - BasePage - INFO - had wait for the element: 
+2018-09-12 11:13:21,984 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="datagrid-row-r1-1-3"]/td[2]/div/input 
+2018-09-12 11:13:22,055 - BasePage - INFO - The element '  ' was clicked.
+2018-09-12 11:13:22,098 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="selectedButton"] 
+2018-09-12 11:13:22,191 - BasePage - INFO - The element '  ' was clicked.
+2018-09-12 11:13:22,194 - BasePage - INFO - had came back to the main frame
+2018-09-12 11:13:22,204 - BasePage - INFO - had changed the frame

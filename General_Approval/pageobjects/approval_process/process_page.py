@@ -22,7 +22,7 @@ class ProcessPage(BasePage):
     choose_button = 'xpath=>//*[@id="selectCustQY"]'
     wait_frame3 = (By.NAME,'ShowCustInfoList')
     wait_choose = (By.XPATH,'//*[@id="datagrid-row-r1-1-3"]/td[2]/div/input')
-    choose_enterprise = 'xpath=>//*[@id="datagrid-row-r1-1-3"]/td[2]/div/input'
+    choose_enterprise = 'xpath=>//*[@id="datagrid-row-r1-1-4"]/td[2]/div/input'
     confirm_button = 'xpath=>//*[@id="selectedButton"]'
     enterprise_name = (By.ID,'enterpriseName')
 
