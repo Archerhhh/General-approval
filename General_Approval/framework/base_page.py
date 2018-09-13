@@ -48,37 +48,55 @@ class BasePage(object):
 
         #显式等待某个元素
     def wait_element(self, locator):
-        El = WebDriverWait(self.driver,10).until(EC.presence_of_element_located(locator))
-        text = El.text
-        logger.info("had wait for the element: %s"%text)
+        try:
+            El = WebDriverWait(self.driver,10).until(EC.presence_of_element_located(locator))
+            text = El.text
+            logger.info("had wait for the element: %s"%text)
+        except TimeoutError as e:
+            logger.error("can't wait fort the element:%s"%e)
         #locator 格式为：(By.ID,'id'),(By.NAME,'name'),(By.XPATH,'xpath')
         #WebDriverWait(self.driver,wait,waitFrequence).until(lambda x:x.find_element_by_id('id'))
 
         #显式等待多个元素,locator定位一组元素
     def wait_elements(self,locator):
-        WebDriverWait(self.driver,10).until(EC.presence_of_all_elements_located(locator))
-        logger.info("had wait for all elements")
+        try:
+            WebDriverWait(self.driver,10).until(EC.presence_of_all_elements_located(locator))
+            logger.info("had wait for all elements")
+        except TimeoutError as e:
+            logger.error("can't wait for elements:%s"%e)
 
         #显式等待frame并且进入frame
     def wait_goframe(self,locator):
-        WebDriverWait(self.driver, 10).until(EC.frame_to_be_available_and_switch_to_it(locator))
-        logger.info("hand wait and changed frame")
+        try:
+            WebDriverWait(self.driver, 10).until(EC.frame_to_be_available_and_switch_to_it(locator))
+            logger.info("had wait and changed frame")
+        except TimeoutError as e:
+            logger.error("can't wait for frame:%s"%e)
         #判断该frame是否可以switch进去，如果可以的话，返回True并且switch进去，否则返回False
 
         #显式等待弹窗
     def wait_alert(self):
-        WebDriverWait(self.driver,10).until(EC.alert_is_present())
-        logger.info("had wait for the alert")
+        try:
+            WebDriverWait(self.driver,10).until(EC.alert_is_present())
+            logger.info("had wait for the alert")
+        except TimeoutError as e:
+            logger.error("can't wait for alert:%s"%e)
 
         #显式等待元素内容变成指定内容
     def wait_eltext(self,locator,text):  #locator内容需要括号括起来
-        WebDriverWait(self.driver,10).until(EC.text_to_be_present_in_element(locator,text))
-        logger.info('had wait for the element text:%s'%text)
+        try:
+            WebDriverWait(self.driver,10).until(EC.text_to_be_present_in_element(locator,text))
+            logger.info('had wait for the text loaded:%s'%text)
+        except TimeoutError as e:
+            logger.error("can't wait for the text loaded:%s"%e)
 
     #显式等待元素的值为text，一般用于输入框
     def wait_elvalue(self,locator,text):
-        WebDriverWait(self.driver,10).until(EC.text_to_be_present_in_element_value(locator,text))
-        logger.info('had wait for the element input value:%s'%text)
+        try:
+            WebDriverWait(self.driver,10).until(EC.text_to_be_present_in_element_value(locator,text))
+            logger.info('had wait for the input value:%s'%text)
+        except TimeoutError as e:
+            logger.error("can't wait for the input value:%s"%e)
 
         # 点击关闭当前窗口
 
@@ -206,31 +224,44 @@ class BasePage(object):
         # 获取元素内容
     def get_element_text(self, selector):
         el = self.find_element(selector)
-        element_text = el.text
-        logger.info("The element_text is: %s" % element_text)
-        return element_text
+        try:
+            element_text = el.text
+            logger.info("The element_text is: %s" % element_text)
+            return element_text
+        except NameError as e:
+            logger.error("failed to get text:%s"%e)
 
         # 鼠标悬停操作
     def mouse_stop(self, selector):
         element = self.find_element(selector)
-        ActionChains(self.driver).move_to_element(element).perform()
+        try:
+            ActionChains(self.driver).move_to_element(element).perform()
+            logger.info("mouse stop on the element")
+        except NameError as e:
+            logger.error("can't mouse stop:%s"%e)
 
         # 选择下拉框操作
     def select_dropdown(self, selector, text):
         element = self.find_element(selector)
         # Select(element).select_by_index(index)
         # Select(element).select_by_value(value)
-        Select(element).select_by_visible_text(text)
-        logger.info("had select %s"%text)
+        try:
+            Select(element).select_by_visible_text(text)
+            logger.info("had select %s"%text)
+        except NameError as e:
+            logger.error("can't select the text:%s"%e)
 
         # 切换到指定的iframe
     def select_frame(self, reference):
-        self.driver.switch_to.frame(reference)
+        try:
+            self.driver.switch_to.frame(reference)
         #self.driver.switch_to.frame(0)  # 1.用frame的index来定位，第一个是0
         # self.driver.switch_to.frame("frame1")  # 2.用id来定位
         # self.driver.switch_to.frame("myframe")  # 3.用name来定位
         # self.driver.switch_to.frame(driver.find_element_by_tag_name("iframe"))  # 4.用WebElement对象来定位
-        logger.info("had changed the frame")
+            logger.info("had changed the frame")
+        except NameError as e:
+            logger.error("can't change to frame:%s"%e)
 
         # 从iframe切换回主窗口
     def top_windows(self):
@@ -274,8 +305,11 @@ class BasePage(object):
 
     def scrollby_element(self,selector):
         el = self.find_element(selector)
-        self.driver.excute_script("argument[0],scrollIntoView();",el)
-        logger.info("had scroll to the element target ")
+        try:
+            self.driver.excute_script("argument[0],scrollIntoView();",el)
+            logger.info("had scroll to the element target ")
+        except NameError as e:
+            logger.error("can't scoll to the element:%s"%e)
 
         #获取alert信息并关闭alert
     def get_alert(self):
