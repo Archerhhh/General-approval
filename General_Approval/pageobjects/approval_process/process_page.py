@@ -96,7 +96,7 @@ class ProcessPage(BasePage):
         #上传文件并审核意见
         self.click(self.material)
         self.wait_goframe(self.wait_mframe)
-        #time.sleep(1)
+        time.sleep(1)
         self.wait_element(self.wait_upload)
         self.click(self.upload_button)
         self.top_windows()
