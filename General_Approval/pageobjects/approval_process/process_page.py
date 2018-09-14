@@ -108,8 +108,8 @@ class ProcessPage(BasePage):
         time.sleep(3)             #打开系统窗口，driver无法控制，只能强制等待，根据文件大小，需要更改等待时间。
         self.top_windows()
         self.click(self.close)
-        self.select_frame(self.m_iframe)
         time.sleep(1)
+        self.select_frame(self.m_iframe)
         self.select_dropdown(self.audit_result,result)
         self.type(self.audit_advise,advise)
         #纸质材料齐全

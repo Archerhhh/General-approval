@@ -119,9 +119,9 @@ class BasePage(object):
         try:
             self.driver.get_screenshot_as_file(screen_name)
             logger.info("Had take screenshot and save to folder : /screenshots")
+            print(screen_name)
         except NameError as e:
             logger.error("Failed to take screenshot! %s" % e)
-            self.get_windows_img()
 
             # 定位元素方法
 
@@ -250,6 +250,7 @@ class BasePage(object):
             logger.info("had select %s"%text)
         except NameError as e:
             logger.error("can't select the text:%s"%e)
+            self.get_windows_img()
 
         # 切换到指定的iframe
     def select_frame(self, reference):

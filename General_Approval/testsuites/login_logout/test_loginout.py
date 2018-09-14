@@ -55,6 +55,7 @@ class Loginout(unittest.TestCase):
         try:
             self.assertEqual (title,'登录')
         except Exception as e:
+            logoutpage.get_windows_img()
             raise e
 
 if __name__ == '__main__':

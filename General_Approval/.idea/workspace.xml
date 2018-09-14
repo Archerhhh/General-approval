@@ -13,10 +13,10 @@
     <SUITE FILE_PATH="coverage/General Approval$Unittests_in_test_loginout.coverage" NAME="Unittests in test_loginout Coverage Results" MODIFIED="1536304411021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/login_logout" />
     <SUITE FILE_PATH="coverage/General Approval$Unittests_in_test_login.coverage" NAME="Unittests in test_login Coverage Results" MODIFIED="1535619450001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
     <SUITE FILE_PATH="coverage/General Approval$Unittests_in_test_login__1_.coverage" NAME="Unittests in test_login (1) Coverage Results" MODIFIED="1535944448977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/login&amp;logout" />
-    <SUITE FILE_PATH="coverage/General_Approval$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1536820762342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_loginout.coverage" NAME="Unittests in test_loginout Coverage Results" MODIFIED="1536646349460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/login_logout" />
+    <SUITE FILE_PATH="coverage/General_Approval$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1536900024191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_loginout.coverage" NAME="Unittests in test_loginout Coverage Results" MODIFIED="1536890064783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/login_logout" />
     <SUITE FILE_PATH="coverage/General Approval$getcwd.coverage" NAME="getcwd Coverage Results" MODIFIED="1536571126603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_process.coverage" NAME="Unittests in test_process Coverage Results" MODIFIED="1536808495610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/approval_process" />
+    <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_process.coverage" NAME="Unittests in test_process Coverage Results" MODIFIED="1536823385275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/approval_process" />
     <SUITE FILE_PATH="coverage/General Approval$TestRunner__1_.coverage" NAME="TestRunner (1) Coverage Results" MODIFIED="1536633322007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/General Approval$Unittests_in_test_process.coverage" NAME="Unittests in test_process Coverage Results" MODIFIED="1536645315433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/approval_process" />
     <SUITE FILE_PATH="coverage/General Approval$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1536636515916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -26,30 +26,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="process_page.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pageobjects/approval_process/process_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
-              <folding>
-                <element signature="e#15#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_loginout.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testsuites/login_logout/test_loginout.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,12 +62,18 @@
         <option value="$PROJECT_DIR$/testsuites/getcwd.py" />
         <option value="$PROJECT_DIR$/testsuites/TestRunner.py" />
         <option value="$PROJECT_DIR$/testsuites/approval_process/test_process.py" />
-        <option value="$PROJECT_DIR$/testsuites/login_logout/test_loginout.py" />
-        <option value="$PROJECT_DIR$/framework/email_report.py" />
-        <option value="$PROJECT_DIR$/TestRunner.py" />
         <option value="$PROJECT_DIR$/framework/browser_engine.py" />
         <option value="$PROJECT_DIR$/pageobjects/approval_process/process_page.py" />
+        <option value="$PROJECT_DIR$/framework/email_report.py" />
         <option value="$PROJECT_DIR$/framework/base_page.py" />
+        <option value="$PROJECT_DIR$/test_report/2018-09-14-10-47-58HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/test_report/2018-09-14-11-04-01HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/test_report/2018-09-14-12-27-04HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/test_report/2018-09-14-12-29-26HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/test_report/2018-09-14-12-32-53HTMLtemplate.html" />
+        <option value="C:/Python34/NewHTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/TestRunner.py" />
+        <option value="$PROJECT_DIR$/testsuites/login_logout/test_loginout.py" />
       </list>
     </option>
   </component>
@@ -121,6 +104,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,10 +149,6 @@
               <option name="myItemId" value="testsuites" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="approval_process" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -193,6 +174,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="screenshots" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="General_Approval" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="General_Approval" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="pageobjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -225,14 +220,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="General_Approval" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="General_Approval" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="framework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -537,8 +544,8 @@
     <recent_temporary>
       <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Python.TestRunner" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_process" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_loginout" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_loginout" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_process" />
       </list>
     </recent_temporary>
   </component>
@@ -556,17 +563,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_process - 2018.09.11 at 09h 34m 56s.xml">
-      <configuration name="Unittests in test_process" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_process - 2018.09.11 at 10h 26m 07s.xml">
-      <configuration name="Unittests in test_process" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_process - 2018.09.11 at 11h 05m 59s.xml">
-      <configuration name="Unittests in test_process" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_process - 2018.09.11 at 13h 38m 17s.xml">
-      <configuration name="Unittests in test_process" configurationId="tests" />
+    <history-entry file="Unittests_in_test_loginout - 2018.09.14 at 09h 54m 32s.xml">
+      <configuration name="Unittests in test_loginout" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_process - 2018.09.11 at 13h 42m 55s.xml">
       <configuration name="Unittests in test_process" configurationId="tests" />
@@ -586,18 +584,27 @@
     <history-entry file="Unittests_in_test_process - 2018.09.13 at 11h 16m 28s.xml">
       <configuration name="Unittests in test_process" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_process - 2018.09.13 at 15h 08m 34s.xml">
+      <configuration name="Unittests in test_process" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_process - 2018.09.13 at 15h 14m 58s.xml">
+      <configuration name="Unittests in test_process" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_process - 2018.09.13 at 15h 24m 31s.xml">
+      <configuration name="Unittests in test_process" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="1" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18991417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19259657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33972913" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32807216" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32807216" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -631,50 +638,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061030.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061016.png" />
-    <entry file="file://$PROJECT_DIR$/logs/201809061033.log" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061039.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061052.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061043.png" />
-    <entry file="file://$PROJECT_DIR$/test_report/2018-09-06-10-52-07HTMLtemplate.html" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061109.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061108.png" />
-    <entry file="file://$PROJECT_DIR$/test_report/2018-09-06-11-10-20HTMLtemplate.html" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061523.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061643.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061644.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061645.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061659.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809061531.png" />
-    <entry file="file://$PROJECT_DIR$/logs/201809061759.log" />
-    <entry file="file://$PROJECT_DIR$/logs/201809061806.log" />
-    <entry file="file://C:/Python34/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="579" column="0" lean-forward="false" selection-start-line="579" selection-start-column="0" selection-end-line="579" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="973" column="0" lean-forward="false" selection-start-line="973" selection-start-column="0" selection-end-line="973" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/201809071356.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809071401.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809071402.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809071407.png" />
-    <entry file="file://$PROJECT_DIR$/logs/201809071146.log" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809071406.png" />
-    <entry file="file://$PROJECT_DIR$/logs/201809071405.log" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809071417.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/201809071418.png" />
-    <entry file="file://$PROJECT_DIR$/logs/201809071448.log" />
-    <entry file="file://$PROJECT_DIR$/test_report/2018-09-07-14-48-23HTMLtemplate.html" />
     <entry file="file://$PROJECT_DIR$/pageobjects/login_logout/login_logout_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -694,24 +657,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/201809101734.log" />
     <entry file="file://$PROJECT_DIR$/test_report/2018-09-10-17-34-37HTMLtemplate.html" />
-    <entry file="file://$PROJECT_DIR$/screenshots/20180911102459.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/20180911102459.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/20180911103654.png" />
     <entry file="file://$PROJECT_DIR$/test_report/2018-09-11-10-35-22HTMLtemplate.html" />
     <entry file="file://$PROJECT_DIR$/test_report/2018-09-11-11-18-20HTMLtemplate.html" />
     <entry file="file://$PROJECT_DIR$/screenshots/20180911111938.png" />
     <entry file="file://$PROJECT_DIR$/test_report/2018-09-11-11-28-36HTMLtemplate.html" />
-    <entry file="file://$PROJECT_DIR$/TestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/browser_engine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -719,46 +670,238 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-13-14-39-22HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-13-15-52-47HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/pageobjects/approval_process/process_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2575">
+          <caret line="103" column="36" lean-forward="true" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-13-16-40-25HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-13-16-45-15HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-13-16-49-44HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-13-16-57-59HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-13-17-11-37HTMLtemplate.html" />
     <entry file="file://$PROJECT_DIR$/framework/email_report.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
-          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-          <folding>
-            <element signature="e#14#28#0" expanded="false" />
-          </folding>
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/20180913173957.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-13-17-39-49HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testsuites/approval_process/test_process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
+        <state relative-caret-position="-1025">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/20180913180211.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-13-18-02-03HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/20180913181457.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-13-18-14-49HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testsuites/login_logout/test_loginout.py">
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-09-54-36HTMLtemplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-10-07-22HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-10-46-34HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-10-47-58HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5139">
-          <caret line="319" column="28" lean-forward="true" selection-start-line="319" selection-start-column="28" selection-end-line="319" selection-end-column="28" />
+        <state relative-caret-position="325">
+          <caret line="122" column="30" lean-forward="true" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pageobjects/approval_process/process_page.py">
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-11-04-01HTMLtemplate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-11-09-18HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-11-22-08HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-11-25-05HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-11-27-17HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-11-30-44HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-11-48-40HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-11-57-32HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-12-03-02HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/NewHTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="1202" column="39" lean-forward="true" selection-start-line="1202" selection-start-column="39" selection-end-line="1202" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-12-32-53HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-12-29-26HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-12-27-04HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-09-14-12-40-24HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuites/login_logout/test_loginout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding>
-            <element signature="e#15#26#0" expanded="true" />
+            <element signature="e#17#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
