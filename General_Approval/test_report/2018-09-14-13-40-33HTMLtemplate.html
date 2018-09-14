@@ -393,9 +393,9 @@ function showOutput(id, name) {
  
 <div class='heading'>
 <h1>政务系统自动化测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-09-14 12:40:24</p>
-<p class='attribute'><strong>Duration:</strong> 0:01:37.895601</p>
-<p class='attribute'><strong>Status:</strong> Pass 12 Failure 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-09-14 13:40:33</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:37.805201</p>
+<p class='attribute'><strong>Status:</strong> Pass 13</p>
 
 <p class='description'>用例测试情况</p>
 </div>
@@ -692,11 +692,11 @@ No Case Detail
 </td>
 </tr>
 
-<tr class='failClass'>
+<tr class='passClass'>
     <td>login_logout.test_loginout.Loginout</td>
     <td>2</td>
-    <td>1</td>
-    <td>1</td>
+    <td>2</td>
+    <td>0</td>
     <td>0</td>
     <td>Click hyperlink view</td>
     <td><a href="javascript:showClassDetail('c2',2)">Detail</a></td>
@@ -725,41 +725,24 @@ No Case Detail
 </td>
 </tr>
 
-<tr id='Ft2.2' class='none'>
-    <td class='failCase'><div class='testcase'>test_logout: 登出系统用例</div></td>
+<tr id='Pt2.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_logout: 登出系统用例</div></td>
     <td colspan='4' align='center'>
- 
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Ft2.2')" >
-        fail</a>
- 
-    <div id='div_Ft2.2' class="popup_window">
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt2.2')" >
+        pass</a>
+    <div id='div_Pt2.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_Ft2.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt2.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-Ft2.2: D:\PycharmProjects\General_Approval/screenshots/20180914124158.png
-Traceback (most recent call last):
-  File "D:\PycharmProjects\General_Approval\testsuites\login_logout\test_loginout.py", line 59, in test_logout
-    raise e
-  File "D:\PycharmProjects\General_Approval\testsuites\login_logout\test_loginout.py", line 56, in test_logout
-    self.assertEqual (title,'登录.')
-AssertionError: '登录' != '登录.'
-- 登录
-+ 登录.
-?   +
-
-
+Pt2.2: 
 
         </pre>
     </div>
-    <!--css div popup end-->
- 
     </td>
-    <td colspan='1' align='center'><a  href="../screenshots/20180914124158.png" target="_blank" class="">picture_shot</a>
-    </td>
+    <td colspan='1' align='center'>picture_shot</td>
     <td colspan='1' align='center'>
 No Case Detail
 </td>
@@ -768,11 +751,11 @@ No Case Detail
 <tr id='total_row'>
     <td>Total and Rate</td>
     <td>13</td>
-    <td>12</td>
-    <td>1</td>
+    <td>13</td>
+    <td>0</td>
     <td>0</td>
     <td>Proportion</td>
-    <td>12/13</td>
+    <td>13/13</td>
 </tr>
 </table>
 
@@ -784,16 +767,16 @@ No Case Detail
                            <div class="title">Pie Chart</div> 
                            <div class="subTitle">This chart is to show the rate that statis of test cases</div>
                            <div class="piechart">  
-                               <canvas id="circle" width="225" height="168" onmousemove='javascript:drawCircle(12, 1, 0)'>your browser does not support the canvas tag</canvas>
+                               <canvas id="circle" width="225" height="168" onmousemove='javascript:drawCircle(13, 0, 0)'>your browser does not support the canvas tag</canvas>
                            </div>
                            <div class="description"> 
                            <div class="scroll-item item-even"> 
                                <div class="rect" style="background-color: #6c6; "></div> 
-                               <div class="item-text">Passcase:12</div> 
+                               <div class="item-text">Passcase:13</div> 
                            </div> 
                            <div class="scroll-item item-odd"> 
                                <div class="rect" style="background-color: #c60; "></div> 
-                               <div class="item-text">failcase:1</div> 
+                               <div class="item-text">failcase:0</div> 
                            </div>  
                            <div class="scroll-item item-even"> 
                                <div class="rect" style="background-color: #c00; "></div> 
@@ -804,22 +787,22 @@ No Case Detail
                            <div class="scroll-item item-even">   
                            </div>
                        </div>
-                       <div class="button" onclick='javascript:drawCircle(12, 1, 0)'><span class="buttonText">CLICK SEE PIE CHART</span></div>
+                       <div class="button" onclick='javascript:drawCircle(13, 0, 0)'><span class="buttonText">CLICK SEE PIE CHART</span></div>
                        </div> 
                        <div id="section2"> 
                        <div class="title">Bar Chart</div> 
                            <div class="subTitle">This chart is to show the count that statis of test cases</div>
                            <div class="barchart">  
-                               <canvas id="bar" width="225" height="168" onclick='javascript:drawBar(12, 1, 0)'>your browser does not support the canvas tag</canvas>
+                               <canvas id="bar" width="225" height="168" onclick='javascript:drawBar(13, 0, 0)'>your browser does not support the canvas tag</canvas>
                            </div>
                            <div class="description"> 
                            <div class="scroll-item item-even"> 
                                <div class="rect" style="background-color: #6c6; "></div> 
-                               <div class="item-text">Passcase:12</div> 
+                               <div class="item-text">Passcase:13</div> 
                            </div> 
                            <div class="scroll-item item-odd"> 
                                <div class="rect" style="background-color: #c60; "></div> 
-                               <div class="item-text">failcase:1</div> 
+                               <div class="item-text">failcase:0</div> 
                            </div>  
                            <div class="scroll-item item-even"> 
                                <div class="rect" style="background-color: #c00; "></div> 
@@ -830,22 +813,22 @@ No Case Detail
                            <div class="scroll-item item-even">   
                            </div>
                        </div>
-                       <div class="button" onclick='javascript:drawBar(12, 1, 0)'><span class="buttonText">CLICK SEE BAR CHART</span></div>
+                       <div class="button" onclick='javascript:drawBar(13, 0, 0)'><span class="buttonText">CLICK SEE BAR CHART</span></div>
                        </div> 
                        <div id="section3">
                         <div class="title">Line Chart</div> 
                            <div class="subTitle">This chart is to show the rate that data of test cases</div>
                            <div class="linechart">  
-                               <canvas id="line" width="225" height="168" onclick='javascript:drawline(12, 1, 0)'>your browser does not support the canvas tag</canvas>
+                               <canvas id="line" width="225" height="168" onclick='javascript:drawline(13, 0, 0)'>your browser does not support the canvas tag</canvas>
                            </div>
                            <div class="description"> 
                            <div class="scroll-item item-even"> 
                                <div class="rect" style="background-color: #6c6; "></div> 
-                               <div class="item-text">Passcase:12</div> 
+                               <div class="item-text">Passcase:13</div> 
                            </div> 
                            <div class="scroll-item item-odd"> 
                                <div class="rect" style="background-color: #c60; "></div> 
-                               <div class="item-text">failcase:1</div> 
+                               <div class="item-text">failcase:0</div> 
                            </div>  
                            <div class="scroll-item item-even"> 
                                <div class="rect" style="background-color: #c00; "></div> 
@@ -856,12 +839,12 @@ No Case Detail
                            <div class="scroll-item item-even">   
                            </div>
                        </div>
-                       <div class="button" onclick='javascript:drawline(12, 1, 0)'><span class="buttonText">CLICK SEE BAR CHART</span></div>
+                       <div class="button" onclick='javascript:drawline(13, 0, 0)'><span class="buttonText">CLICK SEE BAR CHART</span></div>
                        </div> 
                        </div>
                        <div class="panel1">
                        <div id="section4">
-                           <a>12 Pass cases, 1 fail cases, 0 error cases.</a>
+                           <a>13 Pass cases, 0 fail cases, 0 error cases.</a>
                        </div>
                        </div>
                     </div>
