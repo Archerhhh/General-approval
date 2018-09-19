@@ -1,15 +1,17 @@
 # coding=utf-8
 import time
-
+import win32api
+import win32gui
+import win32con
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
-
 from framework import getcwd
 from framework.browser_engine import BrowserEngine
 from framework.logger import logger
+
 
 # create a logger instance
 logger = logger(logger="BasePage").getlog()
@@ -320,7 +322,14 @@ class BasePage(object):
         logger.info("closed alert and alert message is %s"%alert_message)
         return alert_message
 
+        #通过pywin32进行文件上传操作。
+    def upload(self,windowtitle,filepath):
+        dialog = win32gui.FindWindow('#32770', windowtitle)  # 对话框
+        ComboBoxEx32 = win32gui.FindWindowEx(dialog, 0, 'ComboBoxEx32', None)
+        ComboBox = win32gui.FindWindowEx(ComboBoxEx32, 0, 'ComboBox', None)
+        Edit = win32gui.FindWindowEx(ComboBox, 0, 'Edit', None)  # 上面三句依次寻找对象，直到找到输入框Edit对象的句柄
+        button = win32gui.FindWindowEx(dialog, 0, 'Button', None)  # 确定按钮Button
 
-
-
+        win32gui.SendMessage(Edit, win32con.WM_SETTEXT, None, filepath)  # 往输入框输入绝对地址
+        win32gui.SendMessage(dialog, win32con.WM_COMMAND, 1, button)  # 按button
 

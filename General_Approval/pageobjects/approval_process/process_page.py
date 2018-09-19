@@ -22,7 +22,7 @@ class ProcessPage(BasePage):
     choose_button = 'xpath=>//*[@id="selectCustQY"]'
     wait_frame3 = (By.NAME,'ShowCustInfoList')
     wait_choose = (By.XPATH,'//*[@id="datagrid-row-r1-1-3"]/td[2]/div/input')
-    choose_enterprise = 'xpath=>//*[@id="datagrid-row-r1-1-4"]/td[2]/div/input'
+    choose_enterprise = 'xpath=>//*[@id="datagrid-row-r1-1-5"]/td[2]/div/input'
     confirm_button = 'xpath=>//*[@id="selectedButton"]'
     enterprise_name = (By.ID,'enterpriseName')
 
@@ -104,11 +104,13 @@ class ProcessPage(BasePage):
         self.click(self.choose_file)
         time.sleep(1)
         os.system('E:\\up.exe')
+        #self.upload("打开",filepath='E:\\upload.txt')
+        time.sleep(2)
         self.click(self.start)
         time.sleep(3)             #打开系统窗口，driver无法控制，只能强制等待，根据文件大小，需要更改等待时间。
         self.top_windows()
         self.click(self.close)
-        time.sleep(1)
+        time.sleep(2)
         self.select_frame(self.m_iframe)
         self.select_dropdown(self.audit_result,result)
         self.type(self.audit_advise,advise)
@@ -158,7 +160,7 @@ class ProcessPage(BasePage):
     def enter_chenban(self):
         self.click(self.next_material)
         #self.wait_element(self.wait_tiaoguo)
-        time.sleep(1)
+        time.sleep(3)
         self.click(self.cancel_button)
         time.sleep(3)
 
