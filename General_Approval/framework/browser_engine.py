@@ -1,9 +1,6 @@
 # _*_ coding:utf-8 _*_
-
 import configparser
-
 from selenium import webdriver
-
 from framework import getcwd
 from framework.logger import logger
 

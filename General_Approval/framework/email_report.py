@@ -37,7 +37,7 @@ class EmailReport():
          result_dir = dir +'/test_report'
          lists = os.listdir(result_dir)
          lists.sort(key= lambda fn: os.path.getatime(result_dir+"\\"+fn))
-         #找到最新生成的文件
+         # 找到最新生成的文件
          file_new = os.path.join(result_dir,lists[-1])
          logger.info("the report:" + file_new + "will be send" )
          self.send_mail(file_new)
