@@ -16,7 +16,7 @@
     <SUITE FILE_PATH="coverage/General_Approval$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1537343176616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_loginout.coverage" NAME="Unittests in test_loginout Coverage Results" MODIFIED="1537169523550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/login_logout" />
     <SUITE FILE_PATH="coverage/General Approval$getcwd.coverage" NAME="getcwd Coverage Results" MODIFIED="1536571126603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_process.coverage" NAME="Unittests in test_process Coverage Results" MODIFIED="1537428298488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/approval_process" />
+    <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_process.coverage" NAME="Unittests in test_process Coverage Results" MODIFIED="1537429217357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/approval_process" />
     <SUITE FILE_PATH="coverage/General Approval$TestRunner__1_.coverage" NAME="TestRunner (1) Coverage Results" MODIFIED="1536633322007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/General Approval$Unittests_in_test_process.coverage" NAME="Unittests in test_process Coverage Results" MODIFIED="1536645315433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/approval_process" />
     <SUITE FILE_PATH="coverage/General Approval$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1536636515916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -27,7 +27,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_process.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_process.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testsuites/approval_process/test_process.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
@@ -39,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process_page.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="process_page.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pageobjects/approval_process/process_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+            <state relative-caret-position="1150">
+              <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/base_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="53" column="45" lean-forward="false" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -95,9 +105,9 @@
         <option value="$PROJECT_DIR$/testsuites/approval_process/geckodriver.log" />
         <option value="$PROJECT_DIR$/framework/base_page.py" />
         <option value="$PROJECT_DIR$/config/config.ini" />
-        <option value="$PROJECT_DIR$/pageobjects/approval_process/process_page.py" />
         <option value="$PROJECT_DIR$/framework/browser_engine.py" />
         <option value="$PROJECT_DIR$/framework/email_report.py" />
+        <option value="$PROJECT_DIR$/pageobjects/approval_process/process_page.py" />
       </list>
     </option>
   </component>
@@ -553,12 +563,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_process - 2018.09.19 at 15h 27m 20s.xml">
-      <configuration name="Unittests in test_process" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_process - 2018.09.19 at 15h 28m 17s.xml">
-      <configuration name="Unittests in test_process" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_process - 2018.09.19 at 15h 31m 11s.xml">
       <configuration name="Unittests in test_process" configurationId="tests" />
     </history-entry>
@@ -581,6 +585,12 @@
       <configuration name="Unittests in test_process" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_process - 2018.09.20 at 15h 26m 30s.xml">
+      <configuration name="Unittests in test_process" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_process - 2018.09.20 at 15h 35m 51s.xml">
+      <configuration name="Unittests in test_process" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_process - 2018.09.20 at 15h 42m 09s.xml">
       <configuration name="Unittests in test_process" configurationId="tests" />
     </history-entry>
   </component>
@@ -733,16 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="335" column="0" lean-forward="true" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -753,10 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pageobjects/approval_process/process_page.py">
+    <entry file="file://$PROJECT_DIR$/framework/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+        <state relative-caret-position="199">
+          <caret line="53" column="45" lean-forward="false" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -768,6 +768,14 @@
           <folding>
             <element signature="e#15#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageobjects/approval_process/process_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

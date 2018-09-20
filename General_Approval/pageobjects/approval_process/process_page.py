@@ -43,7 +43,8 @@ class ProcessPage(BasePage):
 
     def sign_tab(self):       #点击窗口登记并切换到窗口
         self.select_frame(self.frmae1)
-        self.wait_element(self.wait_listel)
+        #self.wait_element(self.wait_listel)
+        time.sleep(5)
         self.click(self.sign_button)
         self.top_windows()
         time.sleep(1)
