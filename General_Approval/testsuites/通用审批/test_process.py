@@ -1,8 +1,8 @@
 # coding utf-8
 import unittest
-from pageobjects.approval_process.process_page import ProcessPage
+from pageobjects.通用审批.process_page import ProcessPage
 from framework.browser_engine import BrowserEngine
-from pageobjects.login_logout.login_logout_page import Login_logout
+from pageobjects.登录与注销.login_logout_page import Login_logout
 
 
 class Process(unittest.TestCase):

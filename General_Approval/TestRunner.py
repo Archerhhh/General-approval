@@ -5,8 +5,8 @@ import NewHTMLTestRunner
 from framework import getcwd
 from framework.email_report import EmailReport
 
-from testsuites.login_logout.test_loginout import Loginout
-from testsuites.approval_process.test_process import Process
+from testsuites.登录与注销.test_loginout import Loginout
+from testsuites.通用审批.test_process import Process
 
 # 指定测试报告文件
 report_path = getcwd.get_cwd() + '/test_report/'

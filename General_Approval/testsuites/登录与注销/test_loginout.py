@@ -4,7 +4,7 @@ import unittest
 
 from framework import getcwd
 from framework.browser_engine import BrowserEngine
-from pageobjects.login_logout.login_logout_page import Login_logout
+from pageobjects.登录与注销.login_logout_page import Login_logout
 
 
 class Loginout(unittest.TestCase):
@@ -53,7 +53,7 @@ class Loginout(unittest.TestCase):
         logoutpage.logout()
         title = logoutpage.get_title()
         try:
-            self.assertEqual (title,'登录!!')
+            self.assertEqual (title,'登录')
         except Exception as e:
             logoutpage.get_windows_img()
             raise e
