@@ -71,7 +71,7 @@ class UsergroupPage(BasePage):
     def query_danwei(self):   #通过所属单位查询
         self.execute_js(self.model)
         self.select_frame(self.find_element(self.frame0))
-        time.sleep(1)
+        time.sleep(2)
         self.click(self.diqu)
         time.sleep(1)
         self.click(self.choosediqu)
