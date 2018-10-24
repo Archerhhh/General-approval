@@ -70,11 +70,19 @@ class BasePage(object):
         #显式等待frame并且进入frame
     def wait_goframe(self,locator):
         try:
+            self.top_windows()
             WebDriverWait(self.driver, 10).until(EC.frame_to_be_available_and_switch_to_it(locator))
             logger.info("had wait and changed frame")
         except TimeoutError as e:
             logger.error("can't wait for frame:%s"%e)
         #判断该frame是否可以switch进去，如果可以的话，返回True并且switch进去，否则返回False
+            #嵌套的ifram不需要切回主窗口，一层层切换进去。
+    def wait_gonextframe(self, locator):
+        try:
+            WebDriverWait(self.driver, 10).until(EC.frame_to_be_available_and_switch_to_it(locator))
+            logger.info("had wait and changed frame")
+        except TimeoutError as e:
+            logger.error("can't wait for frame:%s" % e)
 
         #显式等待弹窗
     def wait_alert(self):
@@ -242,6 +250,14 @@ class BasePage(object):
         except NameError as e:
             logger.error("can't mouse stop:%s"%e)
 
+    def double_click(self,selector):
+        element = self.find_element(selector)
+        try:
+            ActionChains(self.driver).double_click(element).perform()
+            logger.info("double click on the element")
+        except NameError as e:
+            logger.error("can't double click:%s" % e)
+
         # 选择下拉框操作
     def select_dropdown(self, selector, text):
         element = self.find_element(selector)
@@ -257,6 +273,7 @@ class BasePage(object):
         # 切换到指定的iframe
     def select_frame(self, reference):
         try:
+            self.top_windows()
             self.driver.switch_to.frame(reference)
         #self.driver.switch_to.frame(0)  # 1.用frame的index来定位，第一个是0
         # self.driver.switch_to.frame("frame1")  # 2.用id来定位
@@ -332,4 +349,11 @@ class BasePage(object):
 
         win32gui.SendMessage(Edit, win32con.WM_SETTEXT, None, filepath)  # 往输入框输入绝对地址
         win32gui.SendMessage(dialog, win32con.WM_COMMAND, 1, button)  # 按button
+
+        # 通过JS来点击元素。
+    def execute_js(self,selector):
+        element = self.find_element(selector)
+        text = element.text
+        self.driver.execute_script('$(arguments[0]).click()', element)
+        logger.info("had click the button:%s"%text)
 
