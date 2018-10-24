@@ -16,6 +16,7 @@ class UnitPage(BasePage):
 
     def add_tunit(self,name):   #新增增加顶级单位
         self.execute_js(self.unit_model)
+        time.sleep(2)
         self.select_frame(self.find_element(self.frame0))
         self.click(self.add_top)
         time.sleep(1)
@@ -58,6 +59,7 @@ class UnitPage(BasePage):
     submit = "id=>sumbitButton"
     def add_keshi(self,unit,keshi):   #新增科室
         self.execute_js(self.unit_model)
+        time.sleep(2)
         self.select_frame(self.find_element(self.frame0))
         self.type(self.unitname,unit)
         self.click(self.query)
@@ -121,9 +123,11 @@ class UnitPage(BasePage):
 
     def query_diqu(self):    #通过地区进行查询
         self.execute_js(self.unit_model)
+        time.sleep(2)
         self.select_frame(self.find_element(self.frame0))
         self.click(self.suoshudiqu)
-        self.click(self.zhankai)
+        time.sleep(1)
+        self.execute_js(self.zhankai)
         time.sleep(1)
         self.click(self.chaozhou)
         self.click(self.query)

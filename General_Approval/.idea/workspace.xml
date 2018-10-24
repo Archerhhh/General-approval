@@ -28,11 +28,11 @@
     <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_user.coverage" NAME="Unittests in test_user Coverage Results" MODIFIED="1539777183093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/用户管理" />
     <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_role.coverage" NAME="Unittests in test_role Coverage Results" MODIFIED="1539762370356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/角色管理" />
     <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_positon.coverage" NAME="Unittests in test_positon Coverage Results" MODIFIED="1539845834257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/职务管理" />
-    <SUITE FILE_PATH="coverage/General_Approval$MutithreadRunner.coverage" NAME="MutithreadRunner Coverage Results" MODIFIED="1540347081144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_usergroup.coverage" NAME="Unittests in test_usergroup Coverage Results" MODIFIED="1540349788046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/用户组管理" />
+    <SUITE FILE_PATH="coverage/General_Approval$MutithreadRunner.coverage" NAME="MutithreadRunner Coverage Results" MODIFIED="1540360967322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_approvalManage.coverage" NAME="Unittests in test_approvalManage Coverage Results" MODIFIED="1540279542873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApprSupport/流程管理模块/审批流程管理" />
     <SUITE FILE_PATH="coverage/General Approval$Unittests_in_test_process.coverage" NAME="Unittests in test_process Coverage Results" MODIFIED="1536645315433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/approval_process" />
-    <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_unit.coverage" NAME="Unittests in test_unit Coverage Results" MODIFIED="1539913988837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/单位管理" />
+    <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_unit.coverage" NAME="Unittests in test_unit Coverage Results" MODIFIED="1540361834916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/单位管理" />
     <SUITE FILE_PATH="coverage/General Approval$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1536636515916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_area.coverage" NAME="Unittests in test_area Coverage Results" MODIFIED="1539858316577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/地区管理" />
     <SUITE FILE_PATH="coverage/General_Approval$Unittests_in_test_approvalSteps.coverage" NAME="Unittests in test_approvalSteps Coverage Results" MODIFIED="1540351482659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApprSupport/流程管理模块/审批流程步骤" />
@@ -75,8 +75,6 @@
         <option value="$PROJECT_DIR$/pageobjects/ApprBase/基础配置模块/用户管理/user_page.py" />
         <option value="$PROJECT_DIR$/pageobjects/ApprBase/基础配置模块/职务管理/position_page.py" />
         <option value="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/菜单管理/test_menu.py" />
-        <option value="$PROJECT_DIR$/pageobjects/ApprBase/基础配置模块/角色管理/role_page.py" />
-        <option value="$PROJECT_DIR$/pageobjects/ApprBase/基础配置模块/单位管理/unit_page.py" />
         <option value="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/单位管理/test_unit.py" />
         <option value="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/地区管理/test_area.py" />
         <option value="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/岗位管理/test_jobs.py" />
@@ -111,6 +109,8 @@
         <option value="$PROJECT_DIR$/testsuites/ApprSupport/事项管理模块/事项管理/test_item.py" />
         <option value="$PROJECT_DIR$/pageobjects/ApprSupport/流程管理模块/延期申请流程管理/delayManage_page.py" />
         <option value="$PROJECT_DIR$/pageobjects/ApprSupport/流程管理模块/监管流程管理/regulatoryManage_page.py" />
+        <option value="$PROJECT_DIR$/pageobjects/ApprBase/基础配置模块/角色管理/role_page.py" />
+        <option value="$PROJECT_DIR$/pageobjects/ApprBase/基础配置模块/单位管理/unit_page.py" />
       </list>
     </option>
   </component>
@@ -164,20 +164,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test_report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="General_Approval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="General_Approval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -202,30 +188,7 @@
       <recent name="D:\PycharmProjects\General Approval\framework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_approvalSteps">
-    <configuration default="false" name="Unittests in test_regulatoryManage" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testsuites/ApprSupport/流程管理模块/监管流程管理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="General_Approval" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testsuites/ApprSupport/流程管理模块/监管流程管理/test_regulatoryManage.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in test_unit">
     <configuration default="false" name="MutithreadRunner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,6 +265,29 @@
       <module name="General_Approval" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testsuites/ApprSupport/流程管理模块/审批流程步骤/test_approvalSteps.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_unit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/单位管理" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="General_Approval" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/单位管理/test_unit.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -528,19 +514,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_regulatoryManage" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MutithreadRunner" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_usergroup" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_item" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_approvalSteps" />
+      <item index="0" class="java.lang.String" itemvalue="Python.MutithreadRunner" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_usergroup" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_item" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_approvalSteps" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_unit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_approvalSteps" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_item" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_usergroup" />
-        <item index="3" class="java.lang.String" itemvalue="Python.MutithreadRunner" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_regulatoryManage" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_unit" />
+        <item index="1" class="java.lang.String" itemvalue="Python.MutithreadRunner" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_approvalSteps" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_item" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_usergroup" />
       </list>
     </recent_temporary>
   </component>
@@ -567,9 +553,6 @@
     <history-entry file="Unittests_in_test_item - 2018.10.24 at 11h 13m 12s.xml">
       <configuration name="Unittests in test_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_regulatoryManage - 2018.10.23 at 18h 07m 17s.xml">
-      <configuration name="Unittests in test_regulatoryManage" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_regulatoryManage - 2018.10.24 at 09h 43m 19s.xml">
       <configuration name="Unittests in test_regulatoryManage" configurationId="tests" />
     </history-entry>
@@ -584,6 +567,9 @@
     </history-entry>
     <history-entry file="Unittests_in_test_specialManage - 2018.10.23 at 17h 13m 03s.xml">
       <configuration name="Unittests in test_specialManage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_unit - 2018.10.24 at 14h 18m 23s.xml">
+      <configuration name="Unittests in test_unit" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_usergroup - 2018.10.24 at 10h 57m 43s.xml">
       <configuration name="Unittests in test_usergroup" configurationId="tests" />
@@ -639,8 +625,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/screenshots/20181019091747.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/20181019091756.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/20181019094935.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/20181019091758.png" />
     <entry file="file://$PROJECT_DIR$/pageobjects/ApprControl/process_page.py">
@@ -701,13 +685,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_report/2018-10-19-10-07-29report.html" />
-    <entry file="file://$PROJECT_DIR$/pageobjects/ApprBase/基础配置模块/单位管理/unit_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/getcwd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -858,7 +835,7 @@
         <state relative-caret-position="517">
           <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -889,7 +866,7 @@
         <state relative-caret-position="442">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#17#28#0" expanded="true" />
+            <element signature="e#17#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -899,16 +876,8 @@
         <state relative-caret-position="200">
           <caret line="74" column="29" lean-forward="true" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/单位管理/test_unit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1125">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +928,7 @@
         <state relative-caret-position="425">
           <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -968,6 +937,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="98" column="30" lean-forward="true" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageobjects/ApprBase/基础配置模块/角色管理/role_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1325">
+          <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuites/ApprBase/基础配置模块/单位管理/test_unit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageobjects/ApprBase/基础配置模块/单位管理/unit_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-10-24-14-02-47report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

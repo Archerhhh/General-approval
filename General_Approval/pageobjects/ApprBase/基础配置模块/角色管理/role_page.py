@@ -22,6 +22,7 @@ class RolePage(BasePage):
 
     def add_role(self,name,unit):        #新增角色
         self.execute_js(self.model)
+        time.sleep(2)
         self.select_frame(self.find_element(self.frame0))
         self.click(self.add_button)
         time.sleep(1)
@@ -49,6 +50,7 @@ class RolePage(BasePage):
     name_01 = "xpath=>//div[@class='datagrid-cell datagrid-cell-c1-roleName']"
     def query_role(self,name):   #通过角色名称进行查询
         self.execute_js(self.model)
+        time.sleep(2)
         self.select_frame(self.find_element(self.frame0))
         self.type(self.role,name)
         self.click(self.query_button)
@@ -66,6 +68,7 @@ class RolePage(BasePage):
 
     def query_unit(self):   #通过所属单位进行查询
         self.execute_js(self.model)
+        time.sleep(2)
         self.select_frame(self.find_element(self.frame0))
         self.click(self.suoshudiqu)
         time.sleep(1)

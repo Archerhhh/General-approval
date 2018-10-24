@@ -1,0 +1,177 @@
+2018-10-24 14:17:15,255 - BrowserEngine - INFO - you had select Chrome browser.
+2018-10-24 14:17:15,255 - BrowserEngine - INFO - The test server url is:http://192.168.0.133:7001/ApprBase
+2018-10-24 14:17:20,026 - BrowserEngine - INFO - Starting chrome browser.
+2018-10-24 14:17:20,568 - BrowserEngine - INFO - Open url:http://192.168.0.133:7001/ApprBase
+2018-10-24 14:17:21,730 - BrowserEngine - INFO - Maxmize the current window.
+2018-10-24 14:17:21,732 - BrowserEngine - INFO - Set implicitly wait 8 seconds.
+2018-10-24 14:17:21,762 - BasePage - INFO - Had find the element '  ' successful by id via value: j_username 
+2018-10-24 14:17:21,818 - BasePage - INFO - Had type ' admin ' in inputBox
+2018-10-24 14:17:21,845 - BasePage - INFO - Had find the element '  ' successful by id via value: j_password 
+2018-10-24 14:17:21,915 - BasePage - INFO - Had type ' abc123456 ' in inputBox
+2018-10-24 14:17:21,944 - BasePage - INFO - Had find the element ' 登    录 ' successful by xpath via value: //*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1] 
+2018-10-24 14:17:22,210 - BasePage - INFO - The element ' 登    录 ' was clicked.
+2018-10-24 14:17:22,831 - BasePage - INFO - had wait for the element: 欢迎您！
+2018-10-24 14:17:22,855 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href="/ApprBase/admin/system/unit/toListUnit.do"] 
+2018-10-24 14:17:22,877 - BasePage - INFO - had click the button:
+2018-10-24 14:17:24,956 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/unit/toListUnit.do'] 
+2018-10-24 14:17:24,959 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:24,977 - BasePage - INFO - had changed the frame
+2018-10-24 14:17:25,003 - BasePage - INFO - Had find the element ' 增加顶级单位 ' successful by xpath via value: //span[contains(text(),'增加顶级单位')] 
+2018-10-24 14:17:25,119 - BasePage - INFO - The element ' 增加顶级单位 ' was clicked.
+2018-10-24 14:17:26,130 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:26,140 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:26,207 - BasePage - INFO - had wait and changed frame
+2018-10-24 14:17:26,236 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@class='textbox-icon combo-arrow'] 
+2018-10-24 14:17:26,346 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:26,410 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //div[@id='_easyui_tree_2']//span[@class='tree-hit tree-collapsed'] 
+2018-10-24 14:17:26,497 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:27,569 - BasePage - INFO - Had find the element ' 广东省 ' successful by xpath via value: //span[contains(text(),"广东省")] 
+2018-10-24 14:17:27,635 - BasePage - INFO - The element ' 广东省 ' was clicked.
+2018-10-24 14:17:27,667 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@name='unitName'] 
+2018-10-24 14:17:27,733 - BasePage - INFO - Had type ' 脚本局 ' in inputBox
+2018-10-24 14:17:27,760 - BasePage - INFO - Had find the element '  ' successful by id via value: sumbitButton 
+2018-10-24 14:17:27,848 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:29,917 - BasePage - INFO - Had find the element ' 新增单位成功！ ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2018-10-24 14:17:29,928 - BasePage - INFO - The element_text is: 新增单位成功！
+2018-10-24 14:17:29,961 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2018-10-24 14:17:30,069 - BasePage - INFO - The element ' 确定 ' was clicked.
+2018-10-24 14:17:30,073 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:32,413 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href="/ApprBase/admin/system/unit/toListUnit.do"] 
+2018-10-24 14:17:32,440 - BasePage - INFO - had click the button:
+2018-10-24 14:17:32,632 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/unit/toListUnit.do'] 
+2018-10-24 14:17:32,634 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:32,657 - BasePage - INFO - had changed the frame
+2018-10-24 14:17:32,828 - BasePage - INFO - Had find the element ' 增加下级单位 ' successful by xpath via value: //span[contains(text(),'增加下级单位')] 
+2018-10-24 14:17:32,927 - BasePage - INFO - The element ' 增加下级单位 ' was clicked.
+2018-10-24 14:17:32,956 - BasePage - INFO - Had find the element ' 请选择上级单位 ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2018-10-24 14:17:32,963 - BasePage - INFO - The element_text is: 请选择上级单位
+2018-10-24 14:17:32,986 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2018-10-24 14:17:33,052 - BasePage - INFO - The element ' 确定 ' was clicked.
+2018-10-24 14:17:33,055 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:35,236 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href="/ApprBase/admin/system/unit/toListUnit.do"] 
+2018-10-24 14:17:35,279 - BasePage - INFO - had click the button:
+2018-10-24 14:17:37,338 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/unit/toListUnit.do'] 
+2018-10-24 14:17:37,344 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:37,381 - BasePage - INFO - had changed the frame
+2018-10-24 14:17:37,405 - BasePage - INFO - Had find the element '  ' successful by id via value: unitName 
+2018-10-24 14:17:37,503 - BasePage - INFO - Had type ' 脚本局 ' in inputBox
+2018-10-24 14:17:37,532 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2018-10-24 14:17:37,618 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:38,694 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@type='checkbox'] 
+2018-10-24 14:17:38,782 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:38,822 - BasePage - INFO - Had find the element ' 增加处/科室 ' successful by xpath via value: //span[contains(text(),'增加处/科室')] 
+2018-10-24 14:17:38,917 - BasePage - INFO - The element ' 增加处/科室 ' was clicked.
+2018-10-24 14:17:40,927 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:40,992 - BasePage - INFO - had wait and changed frame
+2018-10-24 14:17:41,016 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@id='unitName'] 
+2018-10-24 14:17:41,137 - BasePage - INFO - Had type ' 科/处室 ' in inputBox
+2018-10-24 14:17:41,161 - BasePage - INFO - Had find the element '  ' successful by id via value: sumbitButton 
+2018-10-24 14:17:41,236 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:43,259 - BasePage - INFO - Had find the element ' 新增单位成功！ ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2018-10-24 14:17:43,267 - BasePage - INFO - The element_text is: 新增单位成功！
+2018-10-24 14:17:43,286 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2018-10-24 14:17:43,392 - BasePage - INFO - The element ' 确定 ' was clicked.
+2018-10-24 14:17:43,398 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:45,667 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href="/ApprBase/admin/system/unit/toListUnit.do"] 
+2018-10-24 14:17:45,763 - BasePage - INFO - had click the button:
+2018-10-24 14:17:45,911 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/unit/toListUnit.do'] 
+2018-10-24 14:17:45,914 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:45,933 - BasePage - INFO - had changed the frame
+2018-10-24 14:17:46,109 - BasePage - INFO - Had find the element '  ' successful by id via value: unitName 
+2018-10-24 14:17:46,174 - BasePage - INFO - Had type ' 脚本局 ' in inputBox
+2018-10-24 14:17:46,197 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2018-10-24 14:17:46,282 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:47,354 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@type='checkbox'] 
+2018-10-24 14:17:47,440 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:47,480 - BasePage - INFO - Had find the element ' 增加下级单位 ' successful by xpath via value: //span[contains(text(),'增加下级单位')] 
+2018-10-24 14:17:47,572 - BasePage - INFO - The element ' 增加下级单位 ' was clicked.
+2018-10-24 14:17:48,582 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:48,592 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:48,661 - BasePage - INFO - had wait and changed frame
+2018-10-24 14:17:48,697 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@class='textbox-icon combo-arrow'] 
+2018-10-24 14:17:48,780 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:48,811 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //div[@id='_easyui_tree_2']//span[@class='tree-hit tree-collapsed'] 
+2018-10-24 14:17:48,875 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:49,946 - BasePage - INFO - Had find the element ' 广东省 ' successful by xpath via value: //span[contains(text(),"广东省")] 
+2018-10-24 14:17:50,009 - BasePage - INFO - The element ' 广东省 ' was clicked.
+2018-10-24 14:17:50,038 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@name='unitName'] 
+2018-10-24 14:17:50,108 - BasePage - INFO - Had type ' 脚本局子单位 ' in inputBox
+2018-10-24 14:17:50,128 - BasePage - INFO - Had find the element '  ' successful by id via value: sumbitButton 
+2018-10-24 14:17:50,201 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:52,259 - BasePage - INFO - Had find the element ' 新增单位成功！ ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2018-10-24 14:17:52,267 - BasePage - INFO - The element_text is: 新增单位成功！
+2018-10-24 14:17:52,290 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2018-10-24 14:17:52,392 - BasePage - INFO - The element ' 确定 ' was clicked.
+2018-10-24 14:17:52,411 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:54,664 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href="/ApprBase/admin/system/unit/toListUnit.do"] 
+2018-10-24 14:17:54,716 - BasePage - INFO - had click the button:
+2018-10-24 14:17:54,898 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/unit/toListUnit.do'] 
+2018-10-24 14:17:54,901 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:54,920 - BasePage - INFO - had changed the frame
+2018-10-24 14:17:55,086 - BasePage - INFO - Had find the element '  ' successful by id via value: unitName 
+2018-10-24 14:17:55,154 - BasePage - INFO - Had type ' 脚本局 ' in inputBox
+2018-10-24 14:17:55,177 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2018-10-24 14:17:55,265 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:56,325 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@type='checkbox'] 
+2018-10-24 14:17:56,438 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:56,477 - BasePage - INFO - Had find the element ' 编辑单位/处（科）室 ' successful by xpath via value: //span[contains(text(),'编辑单位/处（科）室')] 
+2018-10-24 14:17:56,586 - BasePage - INFO - The element ' 编辑单位/处（科）室 ' was clicked.
+2018-10-24 14:17:57,596 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:57,605 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:17:57,661 - BasePage - INFO - had wait and changed frame
+2018-10-24 14:17:57,687 - BasePage - INFO - Had find the element '  ' successful by id via value: unitTel 
+2018-10-24 14:17:57,779 - BasePage - INFO - Had type ' 020-87239712 ' in inputBox
+2018-10-24 14:17:57,798 - BasePage - INFO - Had find the element '  ' successful by id via value: sumbitButton 
+2018-10-24 14:17:57,881 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:17:59,904 - BasePage - INFO - Had find the element ' 更新单位成功！ ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2018-10-24 14:17:59,914 - BasePage - INFO - The element_text is: 更新单位成功！
+2018-10-24 14:17:59,937 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2018-10-24 14:18:00,023 - BasePage - INFO - The element ' 确定 ' was clicked.
+2018-10-24 14:18:00,026 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:18:02,276 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href="/ApprBase/admin/system/unit/toListUnit.do"] 
+2018-10-24 14:18:02,358 - BasePage - INFO - had click the button:
+2018-10-24 14:18:04,411 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/unit/toListUnit.do'] 
+2018-10-24 14:18:04,415 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:18:04,444 - BasePage - INFO - had changed the frame
+2018-10-24 14:18:04,469 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@class='textbox-icon combo-arrow'] 
+2018-10-24 14:18:04,566 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:18:05,644 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id='_easyui_tree_2']/span 
+2018-10-24 14:18:05,674 - BasePage - INFO - had click the button:
+2018-10-24 14:18:06,747 - BasePage - INFO - Had find the element ' 潮州市 ' successful by xpath via value: //span[contains(text(),'潮州市')] 
+2018-10-24 14:18:06,838 - BasePage - INFO - The element ' 潮州市 ' was clicked.
+2018-10-24 14:18:06,862 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2018-10-24 14:18:06,946 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:18:09,009 - BasePage - INFO - Had find the element ' 自动化单位 ' successful by xpath via value: //*[contains(text(),'自动化单位')] 
+2018-10-24 14:18:09,022 - BasePage - INFO - The element_text is: 自动化单位
+2018-10-24 14:18:09,025 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:18:11,223 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href="/ApprBase/admin/system/unit/toListUnit.do"] 
+2018-10-24 14:18:11,244 - BasePage - INFO - had click the button:
+2018-10-24 14:18:11,302 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/unit/toListUnit.do'] 
+2018-10-24 14:18:11,490 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:18:11,513 - BasePage - INFO - had changed the frame
+2018-10-24 14:18:11,690 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@id='leaderName'] 
+2018-10-24 14:18:11,760 - BasePage - INFO - Had type ' 自动人员 ' in inputBox
+2018-10-24 14:18:11,789 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2018-10-24 14:18:11,881 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:18:13,960 - BasePage - INFO - Had find the element ' 自动化单位 ' successful by xpath via value: //*[contains(text(),'自动化单位')] 
+2018-10-24 14:18:13,974 - BasePage - INFO - The element_text is: 自动化单位
+2018-10-24 14:18:13,977 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:18:16,174 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href="/ApprBase/admin/system/unit/toListUnit.do"] 
+2018-10-24 14:18:16,197 - BasePage - INFO - had click the button:
+2018-10-24 14:18:16,369 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/unit/toListUnit.do'] 
+2018-10-24 14:18:16,378 - BasePage - INFO - had came back to the main frame
+2018-10-24 14:18:16,403 - BasePage - INFO - had changed the frame
+2018-10-24 14:18:16,578 - BasePage - INFO - Had find the element '  ' successful by id via value: unitName 
+2018-10-24 14:18:16,648 - BasePage - INFO - Had type ' 脚本局 ' in inputBox
+2018-10-24 14:18:16,671 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2018-10-24 14:18:16,759 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:18:17,798 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@type='checkbox'] 
+2018-10-24 14:18:17,867 - BasePage - INFO - The element '  ' was clicked.
+2018-10-24 14:18:17,917 - BasePage - INFO - Had find the element ' 删除单位 ' successful by xpath via value: //span[contains(text(),'删除单位')] 
+2018-10-24 14:18:18,013 - BasePage - INFO - The element ' 删除单位 ' was clicked.
+2018-10-24 14:18:18,049 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2018-10-24 14:18:18,107 - BasePage - INFO - The element ' 确定 ' was clicked.
+2018-10-24 14:18:20,187 - BasePage - INFO - Had find the element ' 删除单位成功！ ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2018-10-24 14:18:20,194 - BasePage - INFO - The element_text is: 删除单位成功！
+2018-10-24 14:18:20,216 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2018-10-24 14:18:20,308 - BasePage - INFO - The element ' 确定 ' was clicked.
