@@ -35,6 +35,7 @@ class MenuPage(BasePage):
     shanchu = "xpath=>//div[contains(text(),'删除节点')]"
     def delete_menu(self):
         self.click(self.xinjiedian)
+        time.sleep(1)
         self.execute_js(self.shanchu)
         time.sleep(1)
 

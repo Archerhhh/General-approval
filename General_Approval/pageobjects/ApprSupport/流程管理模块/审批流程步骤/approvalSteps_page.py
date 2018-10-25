@@ -84,7 +84,7 @@ class AppStepsPage(BasePage):
         self.select_frame(self.find_element(self.model_frame))
         self.click(self.diqu)
         time.sleep(1)
-        self.click(self.zhankai)
+        self.execute_js(self.zhankai)
         time.sleep(1)
         self.click(self.dongguan)
         self.click(self.ssdanwei)

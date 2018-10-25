@@ -56,6 +56,7 @@ class BasePage(object):
             logger.info("had wait for the element: %s"%text)
         except TimeoutError as e:
             logger.error("can't wait fort the element:%s"%e)
+            self.get_windows_img()
         #locator 格式为：(By.ID,'id'),(By.NAME,'name'),(By.XPATH,'xpath')
         #WebDriverWait(self.driver,wait,waitFrequence).until(lambda x:x.find_element_by_id('id'))
 
@@ -66,6 +67,7 @@ class BasePage(object):
             logger.info("had wait for all elements")
         except TimeoutError as e:
             logger.error("can't wait for elements:%s"%e)
+            self.get_windows_img()
 
         #显式等待frame并且进入frame
     def wait_goframe(self,locator):
@@ -75,6 +77,7 @@ class BasePage(object):
             logger.info("had wait and changed frame")
         except TimeoutError as e:
             logger.error("can't wait for frame:%s"%e)
+            self.get_windows_img()
         #判断该frame是否可以switch进去，如果可以的话，返回True并且switch进去，否则返回False
             #嵌套的ifram不需要切回主窗口，一层层切换进去。
     def wait_gonextframe(self, locator):
@@ -83,6 +86,7 @@ class BasePage(object):
             logger.info("had wait and changed frame")
         except TimeoutError as e:
             logger.error("can't wait for frame:%s" % e)
+            self.get_windows_img()
 
         #显式等待弹窗
     def wait_alert(self):
@@ -91,6 +95,7 @@ class BasePage(object):
             logger.info("had wait for the alert")
         except TimeoutError as e:
             logger.error("can't wait for alert:%s"%e)
+            self.get_windows_img()
 
         #显式等待元素内容变成指定内容
     def wait_eltext(self,locator,text):  #locator内容需要括号括起来
@@ -99,6 +104,7 @@ class BasePage(object):
             logger.info('had wait for the text loaded:%s'%text)
         except TimeoutError as e:
             logger.error("can't wait for the text loaded:%s"%e)
+            self.get_windows_img()
 
     #显式等待元素的值为text，一般用于输入框
     def wait_elvalue(self,locator,text):
@@ -107,6 +113,7 @@ class BasePage(object):
             logger.info('had wait for the input value:%s'%text)
         except TimeoutError as e:
             logger.error("can't wait for the input value:%s"%e)
+            self.get_windows_img()
 
         # 点击关闭当前窗口
 
@@ -282,6 +289,7 @@ class BasePage(object):
             logger.info("had changed the frame")
         except NameError as e:
             logger.error("can't change to frame:%s"%e)
+            self.get_windows_img()
 
         # 从iframe切换回主窗口
     def top_windows(self):
@@ -300,26 +308,34 @@ class BasePage(object):
         # 将滚动条拉到顶部
 
     def scroll_top(self):
-        browser = BrowserEngine(self)
-        browser_name = browser.browse_name()
-        if browser_name == "Chrome":
-            js =  "var  q=document.body.scrollTop=0"
+        try:
+            browser = BrowserEngine(self)
+            browser_name = browser.browse_name()
+            if browser_name == "Chrome":
+                js =  "var  q=document.body.scrollTop=0"
 
-        else:
-            js = "var q = document.documentElement.scrollTop=o"
-        self.driver.execute_script(js)
-        logger.info("had scroll to the top")
+            else:
+                js = "var q = document.documentElement.scrollTop=o"
+            self.driver.execute_script(js)
+            logger.info("had scroll to the top")
+        except Exception as e:
+            logger.error("can't scroll to top:%s"%e)
+            self.get_windows_img()
         #将滚动条拉到底部
 
     def scroll_foot(self):
-        browser = BrowserEngine(self)
-        browser_name = browser.browse_name()
-        if browser_name =="Chrome":
-            js ="var q = document.body.scrollTop=10000"
-        else:
-            js ="var q = document.documentElement.scrollTop=10000"
-        self.driver.execute_script(js)
-        logger.info("had scroll to the foot")
+        try:
+            browser = BrowserEngine(self)
+            browser_name = browser.browse_name()
+            if browser_name =="Chrome":
+                js ="var q = document.body.scrollTop=10000"
+            else:
+                js ="var q = document.documentElement.scrollTop=10000"
+            self.driver.execute_script(js)
+            logger.info("had scroll to the foot")
+        except Exception as e:
+            logger.error("can't scoll to foot:%s"%e)
+            self.get_windows_img()
 
         # 通过元素拉动滚动条到指定位置
 
@@ -333,11 +349,15 @@ class BasePage(object):
 
         #获取alert信息并关闭alert
     def get_alert(self):
-        alert = self.driver.switch_to_alert()
-        alert_message = alert.text
-        alert.accept()
-        logger.info("closed alert and alert message is %s"%alert_message)
-        return alert_message
+        try:
+            alert = self.driver.switch_to_alert()
+            alert_message = alert.text
+            alert.accept()
+            logger.info("closed alert and alert message is %s"%alert_message)
+            return alert_message
+        except Exception as e:
+            logger.info("error to operater alert:%s"%e)
+            self.get_windows_img()
 
         #通过pywin32进行文件上传操作。
     def upload(self,windowtitle,filepath):

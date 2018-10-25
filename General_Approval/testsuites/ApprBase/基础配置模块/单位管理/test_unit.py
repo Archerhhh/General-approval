@@ -83,7 +83,7 @@ class Unit(unittest.TestCase):
 
 
     def test_unit06(self):
-        """针对搜索查询功能的测试"""
+        """通过地区进行查询"""
         self.driver.refresh()
         time.sleep(2)
         unit = UnitPage(self.driver)
@@ -96,7 +96,7 @@ class Unit(unittest.TestCase):
             raise e
 
     def test_unit07(self):
-        """针对搜索查询功能的测试"""
+        """通过单位进行查询"""
         self.driver.refresh()
         time.sleep(2)
         unit = UnitPage(self.driver)
