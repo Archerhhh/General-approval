@@ -82,14 +82,14 @@ class UnitPage(BasePage):
 
     def add_child(self,unit,name):    #增加下级菜单 ，获取弹窗消息时共用上面的message()方法
         self.execute_js(self.unit_model)
+        time.sleep(2)
         self.select_frame(self.find_element(self.frame0))
         self.type(self.unitname, unit)
         self.click(self.query)
         time.sleep(1)
         self.click(self.quan_xuan)
         self.click(self.add_xiaji)
-        time.sleep(1)
-        self.top_windows()
+        time.sleep(2)
         self.wait_goframe(self.edit_frame)
         self.click(self.diqu)
         self.click(self.xiala)
@@ -103,14 +103,14 @@ class UnitPage(BasePage):
     number = "id=>unitTel"
     def edit_unit(self,unit,number):#编辑单位
         self.execute_js(self.unit_model)
+        time.sleep(2)
         self.select_frame(self.find_element(self.frame0))
         self.type(self.unitname, unit)
         self.click(self.query)
         time.sleep(1)
         self.click(self.quan_xuan)
         self.click(self.edit)
-        time.sleep(1)
-        self.top_windows()
+        time.sleep(2)
         self.wait_goframe(self.edit_frame)
         self.type(self.number,number)
         self.click(self.tijiao)
