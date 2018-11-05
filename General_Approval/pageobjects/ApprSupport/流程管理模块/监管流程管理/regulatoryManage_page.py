@@ -1,3 +1,4 @@
+#-*- coding: UTF-8 -*-
 import time
 from framework.base_page import BasePage
 from selenium.webdriver.common.by import By
@@ -28,7 +29,7 @@ class regulatoryManagepage(BasePage):
 
     def add_flow(self,unit,name,desc):      #新增流程
         self.execute_js(self.model)
-        time.sleep(1)
+        time.sleep(2)
         self.select_frame(self.find_element(self.model_frame))
         self.click(self.add_button)
         time.sleep(1)

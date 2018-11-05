@@ -1,3 +1,4 @@
+#-*- coding: UTF-8 -*-
 import unittest
 from framework.browser_engine import BrowserEngine
 from pageobjects.ApprSupport.流程管理模块.业务流程步骤.businessStep_page import BusiStepPage

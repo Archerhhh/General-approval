@@ -9,7 +9,7 @@ logger = logger(logger="BrowserEngine").getlog()
 class BrowserEngine(object):
 
     dir = getcwd.get_cwd()
-    chrome_driver_path = dir +  '/tools/chromedriver.exe'
+    chrome_driver_path = dir + '/tools/chromedriver.exe'
     firefox_driver_path = dir + '/tools/geckodriver.exe'
     ie_driver_path = dir + '/tools/IEDriverServer.exe'
 
@@ -30,7 +30,14 @@ class BrowserEngine(object):
             driver = webdriver.Firefox(executable_path=self.firefox_driver_path)
             logger.info("Starting firefox browser.")
         elif browser == "Chrome":
-            driver = webdriver.Chrome(self.chrome_driver_path)
+            chrome_options = webdriver.ChromeOptions()
+            chrome_options.add_argument('--headless')  # 指定无界面形式运行
+            chrome_options.add_argument('--disable-dev-shm-usage')
+            #chrome_options.add_argument('--start-maximized')
+            chrome_options.add_argument('window-size=1920x1080')  # 指定浏览器分辨率
+            chrome_options.add_argument('--disable-gpu')  # 谷歌文档提到需要加上这个属性来规避bug
+            #driver = webdriver.Chrome(self.chrome_driver_path)
+            driver = webdriver.Chrome(self.chrome_driver_path,chrome_options=chrome_options)
             logger.info("Starting chrome browser.")
         elif browser =="IE":
             driver=webdriver.Ie(self.ie_driver_path)

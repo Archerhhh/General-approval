@@ -1,3 +1,4 @@
+#-*- coding: UTF-8 -*-
 import os
 from framework import getcwd
 
@@ -10,6 +11,7 @@ class delete:      #用户删除所有的日志，截图，报告,日常调试�
             for i in file_list:
                 file_path = os.path.join(dirPath, i)  # 拼接文件的完整路径
                 os.remove(file_path)
+        print("had deleted all logs,reports,screenshots")
 
 if __name__ == '__main__':
     delete = delete()

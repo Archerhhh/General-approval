@@ -1,3 +1,4 @@
+#-*- coding: UTF-8 -*-
 import unittest
 from framework.browser_engine import BrowserEngine
 from pageobjects.ApprSupport.流程管理模块.监管流程管理.regulatoryManage_page import regulatoryManagepage

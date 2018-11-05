@@ -1,3 +1,4 @@
+#-*- coding: UTF-8 -*-
 import os
 def get_cwd():
     path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

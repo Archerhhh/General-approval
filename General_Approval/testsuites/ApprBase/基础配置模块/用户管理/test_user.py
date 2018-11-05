@@ -1,3 +1,4 @@
+#-*- coding: UTF-8 -*-
 import unittest,time
 import random
 from framework.browser_engine import BrowserEngine

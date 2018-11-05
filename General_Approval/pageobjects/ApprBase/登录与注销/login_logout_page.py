@@ -1,4 +1,4 @@
-# coding utf-8
+﻿#-*- coding: UTF-8 -*-
 
 import time
 from framework.base_page import BasePage
@@ -9,10 +9,11 @@ class Login_logout(BasePage):
 
     input_user = "id=>j_username"
     input_pwd ="id=>j_password"
-    submit_btn="xpath=>//*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1]"  #登录界面的元素定位
-    wait_el = (By.XPATH,'//*[@id="header"]/ul/li[1]')
+    #submit_btn="id=>login" #登录界面的元素定位
+    submit_btn = "xpath=>//*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1]"
+    wait_el = (By.XPATH,"//*[@id='header']/ul/li[1]")
 
-    logout_btn ="xpath=>//*[@id='header']/ul/li[4]/a/span"   #登出按钮
+    logout_btn ="xpath=>//span[contains(text(),'退出')]"  #登出按钮
 
     '''
     def type_user(self,text):
@@ -28,7 +29,9 @@ class Login_logout(BasePage):
     def login(self,username,userpassword):
         self.type(self.input_user,username)
         self.type(self.input_pwd,userpassword)
+        #self.find_element(self.submit_btn).submit()
         self.click(self.submit_btn)
+        time.sleep(2)
         self.wait_element(self.wait_el)
 
     #写入一个页面元素定位类，用于登录后验证是否登录成功。

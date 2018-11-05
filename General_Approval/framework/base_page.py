@@ -1,4 +1,4 @@
-# coding=utf-8
+#-*- coding: UTF-8 -*-
 import time
 import win32api
 import win32gui

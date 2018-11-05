@@ -1,4 +1,4 @@
-# coding uft-8
+#-*- coding: UTF-8 -*-
 import time
 import os
 from framework.base_page import BasePage
@@ -52,6 +52,7 @@ class ProcessPage(BasePage):
 
     def add_message(self,name,id_number,phone_number):    #添加办件信息与保存
         self.wait_goframe(self.wait_frame2)
+        time.sleep(1)
         self.click(self.choose_button)
         self.top_windows()
         self.wait_goframe(self.wait_frame3)
@@ -98,23 +99,23 @@ class ProcessPage(BasePage):
         self.click(self.material)
         self.wait_goframe(self.wait_mframe)
         time.sleep(1)
-        self.wait_element(self.wait_upload)
-        self.click(self.upload_button)
-        self.top_windows()
-        self.wait_goframe(self.wait_uiframe)
-        self.click(self.choose_file)
-        time.sleep(1)
-        os.system('E:\\up.exe')
-        #self.upload("打开",filepath='E:\\upload.txt')
-        time.sleep(2)
-        self.click(self.start)
-        time.sleep(3)             #打开系统窗口，driver无法控制，只能强制等待，根据文件大小，需要更改等待时间。
-        self.top_windows()
-        self.click(self.close)
-        time.sleep(2)
-        self.select_frame(self.m_iframe)
-        self.select_dropdown(self.audit_result,result)
-        self.type(self.audit_advise,advise)
+        # self.wait_element(self.wait_upload)
+        # self.click(self.upload_button)
+        # self.top_windows()
+        # self.wait_goframe(self.wait_uiframe)
+        # self.click(self.choose_file)
+        # time.sleep(1)
+        # os.system('E:\\up.exe')
+        # #self.upload("打开",filepath='E:\\upload.txt')
+        # time.sleep(2)
+        # self.click(self.start)
+        # time.sleep(3)             #打开系统窗口，driver无法控制，只能强制等待，根据文件大小，需要更改等待时间。
+        # self.top_windows()
+        # self.click(self.close)
+        # time.sleep(2)
+        # self.select_frame(self.m_iframe)
+        # self.select_dropdown(self.audit_result,result)
+        # self.type(self.audit_advise,advise)
         #纸质材料齐全
         self.click(self.paperstuff)
         self.top_windows()

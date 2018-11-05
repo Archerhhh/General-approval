@@ -1,9 +1,10 @@
-#coding=utf-8
+#-*- coding: UTF-8 -*-
 import smtplib
 from email.mime.text import MIMEText
 import time,os
 from framework.logger import logger
 from framework import getcwd
+from email.mime.multipart import MIMEMultipart
 
 logger = logger(logger="EmailReport").getlog()
 class EmailReport():
@@ -14,12 +15,19 @@ class EmailReport():
         #收信邮箱
         mail_to = "lizw@minstone.com.cn"
         #定义正文
+        msg = MIMEMultipart('related')
         f = open(file_new,'rb')
         mail_body = f.read()
         f.close()
-        msg = MIMEText(mail_body,_subtype='html',_charset='utf-8')
+        content = MIMEText(mail_body,_subtype='html',_charset='utf-8')
+        msg.attach(content)
         #定义标题
-        msg['subject'] = u"自动化测试报告"
+        msg['subject'] = u"审批拆分包自动化测试报告"
+        #构造附件
+        att =MIMEText(mail_body,'base64','utf-8')
+        att["Content-Type"] = 'application/octet-stream'
+        att["Content-Disposition"] = 'attachment; filename="report.html"'
+        msg.attach(att)
         #定义发送时间
         msg['date'] = time.strftime('%a,%d %b %Y %H:%M:%S $z')
 
@@ -31,6 +39,7 @@ class EmailReport():
         s.sendmail(mail_from,mail_to,msg.as_string())
         s.quit()
         logger.info('email has sent')
+
 
     def send_report(self):
          dir = getcwd.get_cwd()

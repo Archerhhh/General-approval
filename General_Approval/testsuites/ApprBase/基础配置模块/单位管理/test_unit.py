@@ -1,4 +1,7 @@
-import unittest,time
+#-*- coding: UTF-8 -*-
+import time
+import unittest
+
 from framework.browser_engine import BrowserEngine
 from pageobjects.ApprBase.基础配置模块.单位管理.unit_page import UnitPage
 from pageobjects.ApprBase.登录与注销.login_logout_page import Login_logout

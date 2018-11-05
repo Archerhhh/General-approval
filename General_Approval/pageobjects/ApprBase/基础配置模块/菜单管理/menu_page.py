@@ -1,3 +1,4 @@
+#-*- coding: UTF-8 -*-
 import time
 from framework.base_page import BasePage
 

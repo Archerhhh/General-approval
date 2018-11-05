@@ -1,3 +1,4 @@
+#-*- coding: UTF-8 -*-
 import unittest
 from framework.browser_engine import BrowserEngine
 from pageobjects.ApprBase.登录与注销.login_logout_page import Login_logout
