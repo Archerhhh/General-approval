@@ -4,6 +4,7 @@ import random
 from framework.browser_engine import BrowserEngine
 from pageobjects.ApprBase.登录与注销.login_logout_page import Login_logout
 from pageobjects.ApprBase.基础配置模块.用户管理.user_page import UserPage
+from framework.configOracle import Oracle
 
 
 class User(unittest.TestCase):
@@ -16,10 +17,16 @@ class User(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
+        oracle = Oracle()
+        oracle.executeSQL("gd_base","delete from base_user where user_code = '%s'"%cls.code)
+        oracle.closeDB()
+        oracle.executeSQL("gd_dbwizard","delete from users where u_name = '%s'"%cls.code)
+        print("delete user by DB")
+        oracle.closeDB()
         cls.driver.quit()
 
-    code = "damon_" + str(random.randint(1, 1000))
-
+    code = 'damon_' + str(random.randint(1, 1000))
+    print(code)
     #@unittest.skip
     def test_user01(self):
         """新增用户"""

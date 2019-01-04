@@ -1,0 +1,88 @@
+2019-01-03 15:42:14,865 - BrowserEngine - INFO - you had select Chrome browser.
+2019-01-03 15:42:14,865 - BrowserEngine - INFO - The test server url is:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 15:42:19,301 - BrowserEngine - INFO - Starting chrome browser.
+2019-01-03 15:42:19,724 - BrowserEngine - INFO - Open url:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 15:42:20,832 - BrowserEngine - INFO - Maxmize the current window.
+2019-01-03 15:42:20,835 - BrowserEngine - INFO - Set implicitly wait 8 seconds.
+2019-01-03 15:42:20,887 - BasePage - INFO - Had find the element '  ' successful by id via value: j_username 
+2019-01-03 15:42:20,940 - BasePage - INFO - Had type ' admin ' in inputBox
+2019-01-03 15:42:20,967 - BasePage - INFO - Had find the element '  ' successful by id via value: j_password 
+2019-01-03 15:42:21,029 - BasePage - INFO - Had type ' abc123456 ' in inputBox
+2019-01-03 15:42:21,075 - BasePage - INFO - Had find the element ' 登    录 ' successful by xpath via value: //*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1] 
+2019-01-03 15:42:21,413 - BasePage - INFO - The element ' 登    录 ' was clicked.
+2019-01-03 15:42:23,441 - BasePage - INFO - had wait for the element: 欢迎您！
+2019-01-03 15:42:23,601 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:42:23,632 - BasePage - INFO - had click the button:
+2019-01-03 15:42:23,671 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:42:23,673 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:42:23,696 - BasePage - INFO - had changed the frame
+2019-01-03 15:42:47,121 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:42:47,144 - BasePage - INFO - had click the button:
+2019-01-03 15:42:47,170 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:42:47,171 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:42:47,190 - BasePage - INFO - had changed the frame
+2019-01-03 15:42:57,224 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"roleName"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 15:42:57,559 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 15:42:59,809 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:42:59,838 - BasePage - INFO - had click the button:
+2019-01-03 15:42:59,858 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:42:59,861 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:42:59,880 - BasePage - INFO - had changed the frame
+2019-01-03 15:43:09,938 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='textbox-icon combo-arrow']"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 15:43:10,247 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 15:43:12,536 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:43:12,562 - BasePage - INFO - had click the button:
+2019-01-03 15:43:12,586 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:43:12,588 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:43:12,608 - BasePage - INFO - had changed the frame
+2019-01-03 15:43:22,680 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'所属地区')]//following-sibling::td//a[@class='textbox-icon combo-arrow']"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 15:43:23,016 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 15:43:25,273 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:43:25,296 - BasePage - INFO - had click the button:
+2019-01-03 15:43:25,318 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:43:25,321 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:43:25,338 - BasePage - INFO - had changed the frame
+2019-01-03 15:43:35,391 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"roleName"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 15:43:35,720 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 15:43:37,971 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:43:38,000 - BasePage - INFO - had click the button:
+2019-01-03 15:43:38,020 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:43:38,023 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:43:38,042 - BasePage - INFO - had changed the frame
+2019-01-03 15:43:48,085 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"roleName"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 15:43:48,444 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 15:43:50,703 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:43:50,724 - BasePage - INFO - had click the button:
+2019-01-03 15:43:50,746 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:43:50,747 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:43:50,766 - BasePage - INFO - had changed the frame
+2019-01-03 15:44:00,813 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"roleName"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 15:44:01,144 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 15:44:03,361 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:44:03,385 - BasePage - INFO - had click the button:
+2019-01-03 15:44:03,407 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:44:03,408 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:44:03,427 - BasePage - INFO - had changed the frame
+2019-01-03 15:44:13,450 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"roleName"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 15:44:13,737 - BasePage - INFO - Had take screenshot and save to folder : /screenshots

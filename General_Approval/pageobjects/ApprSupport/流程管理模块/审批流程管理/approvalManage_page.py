@@ -135,4 +135,4 @@ class AppManagePage(BasePage):
         self.click(self.delete_button)
         time.sleep(2)
         self.click(self.close_alert)
-        time.sleep(1)
+        time.sleep(2)

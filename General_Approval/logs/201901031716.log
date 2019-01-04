@@ -1,0 +1,105 @@
+2019-01-03 17:16:59,657 - BrowserEngine - INFO - you had select Chrome browser.
+2019-01-03 17:16:59,658 - BrowserEngine - INFO - The test server url is:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 17:17:04,102 - BrowserEngine - INFO - Starting chrome browser.
+2019-01-03 17:17:04,579 - BrowserEngine - INFO - Open url:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 17:17:05,698 - BrowserEngine - INFO - Maxmize the current window.
+2019-01-03 17:17:05,707 - BrowserEngine - INFO - Set implicitly wait 8 seconds.
+2019-01-03 17:17:05,756 - BasePage - INFO - Had find the element '  ' successful by id via value: j_username 
+2019-01-03 17:17:05,813 - BasePage - INFO - Had type ' ceshi1 ' in inputBox
+2019-01-03 17:17:05,836 - BasePage - INFO - Had find the element '  ' successful by id via value: j_password 
+2019-01-03 17:17:05,898 - BasePage - INFO - Had type ' abc123456! ' in inputBox
+2019-01-03 17:17:05,927 - BasePage - INFO - Had find the element ' 登    录 ' successful by xpath via value: //*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1] 
+2019-01-03 17:17:06,461 - BasePage - INFO - The element ' 登    录 ' was clicked.
+2019-01-03 17:17:08,509 - BasePage - INFO - had wait for the element: 欢迎您！
+2019-01-03 17:17:08,535 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href="/ApprSynthesis/appr/synthesis/register/loadSynthesizePage.do"] 
+2019-01-03 17:17:08,559 - BasePage - INFO - had click the button:
+2019-01-03 17:17:10,631 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src="/ApprSynthesis/appr/synthesis/register/loadSynthesizePage.do"] 
+2019-01-03 17:17:10,634 - BasePage - INFO - had came back to the main frame
+2019-01-03 17:17:10,654 - BasePage - INFO - had changed the frame
+2019-01-03 17:17:10,690 - BasePage - INFO - had wait for the element: 2010828
+测试局-子部门_测试局（时限：12）
+广东省
+限时办结
+广东省
+窗口登记
+2019-01-03 17:17:10,717 - BasePage - INFO - Had find the element ' 窗口登记 ' successful by xpath via value: //*[@id="datagrid-row-r1-2-39dd82f4753b4dda97da1797af0a3f33"]/td[7]/div/a/font 
+2019-01-03 17:17:11,591 - BasePage - INFO - The element ' 窗口登记 ' was clicked.
+2019-01-03 17:17:11,595 - BasePage - INFO - had came back to the main frame
+2019-01-03 17:17:12,608 - BasePage - INFO - switch to second window:CDwindow-A718A46CD0141DE29F7A187970092637 
+2019-01-03 17:17:16,586 - BasePage - INFO - had came back to the main frame
+2019-01-03 17:17:16,622 - BasePage - INFO - had wait and changed frame
+2019-01-03 17:17:17,690 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='为个人办理'] 
+2019-01-03 17:17:27,831 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"nav_sbcl"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:17:28,151 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:17:28,154 - BasePage - INFO - had came back to the main frame
+2019-01-03 17:17:28,155 - BasePage - INFO - had came back to the main frame
+2019-01-03 17:17:28,165 - BasePage - INFO - had changed the frame
+2019-01-03 17:17:38,203 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"attaStatusSelect"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:17:38,506 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:17:48,523 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:17:48,845 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:17:58,861 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:17:59,184 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:18:09,250 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSend"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:18:09,562 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:18:19,608 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:18:19,940 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:18:29,973 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:18:30,280 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:18:40,313 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:18:40,628 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:18:50,674 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:18:50,971 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:18:54,020 - BrowserEngine - INFO - you had select Chrome browser.
+2019-01-03 17:18:54,020 - BrowserEngine - INFO - The test server url is:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 17:18:58,943 - BrowserEngine - INFO - Starting chrome browser.
+2019-01-03 17:18:59,413 - BrowserEngine - INFO - Open url:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 17:19:00,519 - BrowserEngine - INFO - Maxmize the current window.
+2019-01-03 17:19:00,522 - BrowserEngine - INFO - Set implicitly wait 8 seconds.
+2019-01-03 17:19:00,579 - BasePage - INFO - Had find the element '  ' successful by id via value: j_username 
+2019-01-03 17:19:00,632 - BasePage - INFO - Had type ' ceshi1 ' in inputBox
+2019-01-03 17:19:00,657 - BasePage - INFO - Had find the element '  ' successful by id via value: j_password 
+2019-01-03 17:19:00,717 - BasePage - INFO - Had type ' abc123456! ' in inputBox
+2019-01-03 17:19:00,743 - BasePage - INFO - Had find the element ' 登    录 ' successful by xpath via value: //*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1] 
+2019-01-03 17:19:01,048 - BasePage - INFO - The element ' 登    录 ' was clicked.
+2019-01-03 17:19:03,092 - BasePage - INFO - had wait for the element: 欢迎您！
+2019-01-03 17:19:03,118 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href="/ApprSynthesis/appr/synthesis/deliver/toDeliverList.do"] 
+2019-01-03 17:19:03,144 - BasePage - INFO - had click the button:
+2019-01-03 17:19:05,154 - BasePage - INFO - had came back to the main frame
+2019-01-03 17:19:15,206 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"sendCertificate"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:19:15,556 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:19:25,578 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSend"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:19:25,917 - BasePage - INFO - Had take screenshot and save to folder : /screenshots

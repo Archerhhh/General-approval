@@ -79,7 +79,7 @@ class delayManage(unittest.TestCase):
         special.delete_flow("自动流程")
         try:
             message =special.get_message()
-            self.assertEqual("新增延期申请流程成功!",message)
+            self.assertEqual("删除流程成功！",message)
         except Exception as e:
             special.get_windows_img()
             raise e

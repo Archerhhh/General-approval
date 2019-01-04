@@ -13,6 +13,7 @@ class AreaPage(BasePage):
 
     def try_top(self):  #新增顶级地区
         self.execute_js(self.diqu)
+        time.sleep(1)
         self.select_frame(self.find_element(self.diqu_frame))
         self.click(self.top_area)
         time.sleep(1)
@@ -26,6 +27,7 @@ class AreaPage(BasePage):
 
     def try_child(self):  #不选择顶级地区时新增下级地区
         self.execute_js(self.diqu)
+        time.sleep(1)
         self.select_frame(self.find_element(self.diqu_frame))
         self.click(self.child_area)
         time.sleep(1)
@@ -34,6 +36,7 @@ class AreaPage(BasePage):
 
     def try_edit(self):   #不选择地区时编辑地区
         self.execute_js(self.diqu)
+        time.sleep(1)
         self.select_frame(self.find_element(self.diqu_frame))
         self.click(self.child_area)
         time.sleep(1)
@@ -42,6 +45,7 @@ class AreaPage(BasePage):
 
     def try_delete(self):   #不选择地区时删除地区
         self.execute_js(self.diqu)
+        time.sleep(1)
         self.select_frame(self.find_element(self.diqu_frame))
         self.click(self.delete_area)
         time.sleep(1)
@@ -57,6 +61,7 @@ class AreaPage(BasePage):
     #新增下级地区
     def add_child(self,name,code):
         self.execute_js(self.diqu)
+        time.sleep(1)
         self.select_frame(self.find_element(self.diqu_frame))
         self.click(self.top_select)
         self.click(self.child_area)
@@ -77,6 +82,7 @@ class AreaPage(BasePage):
 
     def edit_child(self,number):
         self.execute_js(self.diqu)
+        time.sleep(1)
         self.select_frame(self.find_element(self.diqu_frame))
         self.click(self.top_list)
         time.sleep(1)
@@ -92,6 +98,7 @@ class AreaPage(BasePage):
 
     def delete_child(self):
         self.execute_js(self.diqu)
+        time.sleep(1)
         self.select_frame(self.find_element(self.diqu_frame))
         self.click(self.top_list)
         time.sleep(1)

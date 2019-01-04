@@ -1,0 +1,161 @@
+2019-01-03 15:58:05,971 - BrowserEngine - INFO - you had select Chrome browser.
+2019-01-03 15:58:05,973 - BrowserEngine - INFO - The test server url is:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 15:58:10,404 - BrowserEngine - INFO - Starting chrome browser.
+2019-01-03 15:58:10,875 - BrowserEngine - INFO - Open url:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 15:58:11,980 - BrowserEngine - INFO - Maxmize the current window.
+2019-01-03 15:58:11,983 - BrowserEngine - INFO - Set implicitly wait 8 seconds.
+2019-01-03 15:58:12,039 - BasePage - INFO - Had find the element '  ' successful by id via value: j_username 
+2019-01-03 15:58:12,088 - BasePage - INFO - Had type ' admin ' in inputBox
+2019-01-03 15:58:12,111 - BasePage - INFO - Had find the element '  ' successful by id via value: j_password 
+2019-01-03 15:58:12,167 - BasePage - INFO - Had type ' abc123456 ' in inputBox
+2019-01-03 15:58:12,197 - BasePage - INFO - Had find the element ' 登    录 ' successful by xpath via value: //*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1] 
+2019-01-03 15:58:12,529 - BasePage - INFO - The element ' 登    录 ' was clicked.
+2019-01-03 15:58:14,598 - BasePage - INFO - had wait for the element: 欢迎您！
+2019-01-03 15:58:14,624 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:58:14,647 - BasePage - INFO - had click the button:
+2019-01-03 15:58:15,700 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:58:15,703 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:58:15,733 - BasePage - INFO - had changed the frame
+2019-01-03 15:58:15,759 - BasePage - INFO - had wait for the element: 新增岗位
+2019-01-03 15:58:15,778 - BasePage - INFO - Had find the element ' 新增岗位 ' successful by xpath via value: //span[contains(text(),'新增岗位')] 
+2019-01-03 15:58:15,892 - BasePage - INFO - The element ' 新增岗位 ' was clicked.
+2019-01-03 15:58:15,895 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:58:15,947 - BasePage - INFO - had wait and changed frame
+2019-01-03 15:58:17,020 - BasePage - INFO - Had find the element '  ' successful by id via value: roleName 
+2019-01-03 15:58:17,072 - BasePage - INFO - Had type ' 自动测试系统 ' in inputBox
+2019-01-03 15:58:17,095 - BasePage - INFO - Had find the element '  ' successful by id via value: selectUnit 
+2019-01-03 15:58:17,203 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:58:17,207 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:58:17,292 - BasePage - INFO - had wait and changed frame
+2019-01-03 15:58:17,513 - BasePage - INFO - Had find the element '  ' successful by id via value: unitName 
+2019-01-03 15:58:17,657 - BasePage - INFO - Had type ' 测试科 ' in inputBox
+2019-01-03 15:58:17,686 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2019-01-03 15:58:17,782 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:58:17,941 - BasePage - INFO - Had find the element ' 测试科 ' successful by xpath via value: //span[contains(text(),'测试科')] 
+2019-01-03 15:58:18,025 - BasePage - INFO - The element ' 测试科 ' was clicked.
+2019-01-03 15:58:18,049 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='确定'] 
+2019-01-03 15:58:18,119 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:58:18,124 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:58:18,153 - BasePage - INFO - had wait and changed frame
+2019-01-03 15:58:18,176 - BasePage - INFO - Had find the element '  ' successful by id via value: sumbitButton 
+2019-01-03 15:58:18,372 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:58:20,438 - BasePage - INFO - Had find the element ' 岗位名称已存在! ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2019-01-03 15:58:20,447 - BasePage - INFO - The element_text is: 岗位名称已存在!
+2019-01-03 15:58:20,473 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2019-01-03 15:58:20,535 - BasePage - INFO - The element ' 确定 ' was clicked.
+2019-01-03 15:58:20,536 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:58:20,851 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 15:58:23,193 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:58:23,229 - BasePage - INFO - had click the button:
+2019-01-03 15:58:24,256 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:58:24,257 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:58:24,275 - BasePage - INFO - had changed the frame
+2019-01-03 15:58:24,292 - BasePage - INFO - Had find the element '  ' successful by id via value: roleName 
+2019-01-03 15:58:24,338 - BasePage - INFO - Had type ' 自动化岗位 ' in inputBox
+2019-01-03 15:58:24,357 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2019-01-03 15:58:24,427 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:58:25,489 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //div[@class='datagrid-cell datagrid-cell-c1-roleName'] 
+2019-01-03 15:58:25,499 - BasePage - INFO - The element_text is: 
+2019-01-03 15:58:25,502 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:58:25,811 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 15:58:28,063 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:58:28,086 - BasePage - INFO - had click the button:
+2019-01-03 15:58:28,108 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:58:28,111 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:58:28,130 - BasePage - INFO - had changed the frame
+2019-01-03 15:58:38,174 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='textbox-icon combo-arrow']"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 15:58:38,459 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 15:58:40,696 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:58:40,716 - BasePage - INFO - had click the button:
+2019-01-03 15:58:40,743 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:58:40,744 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:58:40,765 - BasePage - INFO - had changed the frame
+2019-01-03 15:58:50,805 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//td[contains(text(),'所属地区')]//following-sibling::td//a[@class='textbox-icon combo-arrow']"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 15:58:51,121 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 15:58:53,371 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:58:53,398 - BasePage - INFO - had click the button:
+2019-01-03 15:58:54,444 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:58:54,447 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:58:54,471 - BasePage - INFO - had changed the frame
+2019-01-03 15:58:54,496 - BasePage - INFO - Had find the element '  ' successful by id via value: roleName 
+2019-01-03 15:58:54,551 - BasePage - INFO - Had type ' 自动测试系统 ' in inputBox
+2019-01-03 15:58:54,578 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2019-01-03 15:58:54,651 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:58:55,698 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@name='ck'] 
+2019-01-03 15:58:55,769 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:58:55,795 - BasePage - INFO - Had find the element ' 编辑岗位 ' successful by xpath via value: //span[contains(text(),'编辑岗位')] 
+2019-01-03 15:58:55,878 - BasePage - INFO - The element ' 编辑岗位 ' was clicked.
+2019-01-03 15:58:56,913 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:58:56,953 - BasePage - INFO - had wait and changed frame
+2019-01-03 15:58:56,976 - BasePage - INFO - Had find the element '  ' successful by id via value: roleName 
+2019-01-03 15:58:57,035 - BasePage - INFO - Had type ' 自动化测试系统 ' in inputBox
+2019-01-03 15:58:57,059 - BasePage - INFO - Had find the element '  ' successful by id via value: sumbitButton 
+2019-01-03 15:58:57,220 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:58:58,279 - BasePage - INFO - Had find the element ' 保存成功! ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2019-01-03 15:58:58,292 - BasePage - INFO - The element_text is: 保存成功!
+2019-01-03 15:58:58,321 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2019-01-03 15:58:58,401 - BasePage - INFO - The element ' 确定 ' was clicked.
+2019-01-03 15:58:58,404 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:59:00,562 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:59:00,596 - BasePage - INFO - had click the button:
+2019-01-03 15:59:01,645 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:59:01,651 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:59:01,676 - BasePage - INFO - had changed the frame
+2019-01-03 15:59:01,697 - BasePage - INFO - Had find the element '  ' successful by id via value: roleName 
+2019-01-03 15:59:01,750 - BasePage - INFO - Had type ' 自动化测试系统 ' in inputBox
+2019-01-03 15:59:01,772 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2019-01-03 15:59:01,844 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:59:02,895 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@name='ck'] 
+2019-01-03 15:59:02,974 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:59:03,002 - BasePage - INFO - Had find the element ' 分配用户 ' successful by xpath via value: //span[contains(text(),'分配用户')] 
+2019-01-03 15:59:03,086 - BasePage - INFO - The element ' 分配用户 ' was clicked.
+2019-01-03 15:59:04,092 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:59:04,135 - BasePage - INFO - had wait and changed frame
+2019-01-03 15:59:04,170 - BasePage - INFO - Had find the element '  ' successful by id via value: userCode 
+2019-01-03 15:59:04,227 - BasePage - INFO - Had type ' cyl ' in inputBox
+2019-01-03 15:59:04,247 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2019-01-03 15:59:04,346 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:59:05,407 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@name='ck'] 
+2019-01-03 15:59:05,476 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:59:05,519 - BasePage - INFO - Had find the element ' 配置 ' successful by xpath via value: //span[contains(text(),'配置')] 
+2019-01-03 15:59:05,584 - BasePage - INFO - The element ' 配置 ' was clicked.
+2019-01-03 15:59:06,602 - BasePage - INFO - Had find the element ' 获取用户权限失败org.springframework.dao.DataIntegrityViolationException: ### Error updating database. Cause: java.sql.SQLException: ORA-01400: 无法将 NULL 插入 ("GD_BASE"."APPR_USER_ROLE"."AREA_SEQ") ### The error may involve defaultParameterMap ### The error occurred while setting parameters ### SQL: insert into appr_user_role (unit_code, user_code, area_seq, user_role) values (?, ?, ?, ?) ### Cause: java.sql.SQLException: ORA-01400: 无法将 NULL 插入 ("GD_BASE"."APPR_USER_ROLE"."AREA_SEQ") ; SQL []; ORA-01400: 无法将 NULL 插入 ("GD_BASE"."APPR_USER_ROLE"."AREA_SEQ") ; nested exception is java.sql.SQLException: ORA-01400: 无法将 NULL 插入 ("GD_BASE"."APPR_USER_ROLE"."AREA_SEQ") ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2019-01-03 15:59:06,611 - BasePage - INFO - The element_text is: 获取用户权限失败org.springframework.dao.DataIntegrityViolationException: ### Error updating database. Cause: java.sql.SQLException: ORA-01400: 无法将 NULL 插入 ("GD_BASE"."APPR_USER_ROLE"."AREA_SEQ") ### The error may involve defaultParameterMap ### The error occurred while setting parameters ### SQL: insert into appr_user_role (unit_code, user_code, area_seq, user_role) values (?, ?, ?, ?) ### Cause: java.sql.SQLException: ORA-01400: 无法将 NULL 插入 ("GD_BASE"."APPR_USER_ROLE"."AREA_SEQ") ; SQL []; ORA-01400: 无法将 NULL 插入 ("GD_BASE"."APPR_USER_ROLE"."AREA_SEQ") ; nested exception is java.sql.SQLException: ORA-01400: 无法将 NULL 插入 ("GD_BASE"."APPR_USER_ROLE"."AREA_SEQ")
+2019-01-03 15:59:06,628 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2019-01-03 15:59:06,694 - BasePage - INFO - The element ' 确定 ' was clicked.
+2019-01-03 15:59:06,696 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:59:07,026 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 15:59:09,365 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:59:09,397 - BasePage - INFO - had click the button:
+2019-01-03 15:59:10,440 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:59:10,444 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:59:10,467 - BasePage - INFO - had changed the frame
+2019-01-03 15:59:10,486 - BasePage - INFO - Had find the element '  ' successful by id via value: roleName 
+2019-01-03 15:59:10,542 - BasePage - INFO - Had type ' 自动化测试系统 ' in inputBox
+2019-01-03 15:59:10,562 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2019-01-03 15:59:10,637 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:59:21,670 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='ck']"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 15:59:21,966 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 15:59:24,229 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:59:24,252 - BasePage - INFO - had click the button:
+2019-01-03 15:59:25,328 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/role/toListPosition.do'] 
+2019-01-03 15:59:25,332 - BasePage - INFO - had came back to the main frame
+2019-01-03 15:59:25,351 - BasePage - INFO - had changed the frame
+2019-01-03 15:59:25,375 - BasePage - INFO - Had find the element '  ' successful by id via value: roleName 
+2019-01-03 15:59:25,428 - BasePage - INFO - Had type ' 自动化测试系统 ' in inputBox
+2019-01-03 15:59:25,453 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@value='查 询'] 
+2019-01-03 15:59:25,546 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 15:59:36,611 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='ck']"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 15:59:36,930 - BasePage - INFO - Had take screenshot and save to folder : /screenshots

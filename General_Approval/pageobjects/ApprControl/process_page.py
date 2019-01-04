@@ -7,14 +7,13 @@ from framework import getcwd
 
 class ProcessPage(BasePage):
 
-    # 选择模块按钮
-    top_menu ='xpath=>//*[@id="j-nav"]/li[2]/a/span'
-    sub_menu = 'xpath=>//*[@id="j-033-tree"]/ul/li/a'
+    # 选择模块
+    model = 'xpath=>//*[@href="/ApprControl/apprItem/toItemDefToAcceptNew.do?isFta=0"]'
     wait_listel =(By.ID,'datagrid-row-r1-2-0')
 
     #  窗口登记按钮
-    frmae1 = 1
-    sign_button = 'xpath=>//body/div[2]/div/div/div/div[1]/div[2]/div[2]/table/tbody/tr/td[5]/div/a[1]/font'
+    frame1 =  "xpath=>//iframe[@src='/ApprControl/apprItem/toItemDefToAcceptNew.do?isFta=0']"
+    sign_button = 'xpath=>//*[@id="datagrid-row-r1-2-0"]/td[6]/div/a/font'
 
     # 填写企业信息
     frame2 ='iframeId'
@@ -22,7 +21,7 @@ class ProcessPage(BasePage):
     choose_button = 'xpath=>//*[@id="selectCustQY"]'
     wait_frame3 = (By.NAME,'ShowCustInfoList')
     wait_choose = (By.XPATH,'//*[@id="datagrid-row-r1-1-3"]/td[2]/div/input')
-    choose_enterprise = 'xpath=>//*[@id="datagrid-row-r1-1-6"]/td[2]/div/input'
+    choose_enterprise = 'xpath=>//*[@id="datagrid-row-r1-1-1"]/td[2]/div/input'
     confirm_button = 'xpath=>//*[@id="selectedButton"]'
     enterprise_name = (By.ID,'enterpriseName')
 
@@ -32,25 +31,21 @@ class ProcessPage(BasePage):
     phone_number = 'xpath=>//*[@id="custMobile"]'
     save_button ='id=>doSave'
 
-    #保存成功后的提示信息
-    #alert_message = (By.XPATH,'/html/body/div[6]/div/table/tbody/tr[2]/td/div[text()="保存成功!"]')
-    #alert = 'xpath=>/html/body/div[6]/div/table/tbody/tr[2]/td/div'
 
     def open_model(self):                 #进入模块
-        self.mouse_stop(self.top_menu)
-        self.click(self.sub_menu)
-        time.sleep(1)
+        self.execute_js(self.model)
+        time.sleep(3)
 
     def sign_tab(self):       #点击窗口登记并切换到窗口
-        self.select_frame(self.frmae1)
+        self.select_frame(self.find_element(self.frame1))
         #self.wait_element(self.wait_listel)
-        time.sleep(5)
+        time.sleep(6)
         self.click(self.sign_button)
         self.top_windows()
-        time.sleep(1)
+        time.sleep(5)
         self.select_windows()
 
-    def add_message(self,name,id_number,phone_number):    #添加办件信息与保存
+    def add_message(self,name,id_number,phone_number):    #添加企业办件信息与保存
         self.wait_goframe(self.wait_frame2)
         time.sleep(1)
         self.click(self.choose_button)
@@ -61,7 +56,7 @@ class ProcessPage(BasePage):
         self.click(self.confirm_button)
         self.top_windows()
         self.select_frame(self.frame2)
-        self.wait_elvalue(self.enterprise_name, '橡皮有限公司')
+        self.wait_elvalue(self.enterprise_name, '英司康有限公司')
         self.scroll_foot()
         self.type(self.name,name)
         self.type(self.id_number,id_number)
@@ -70,6 +65,27 @@ class ProcessPage(BasePage):
         self.click(self.save_button)
         #self.wait_element(self.alert_message)
         time.sleep(3)
+
+    geren = "xpath=>//input[@value='个人办理']"
+    choose_ren = "xpath=>//input[@value='选择申请人']"
+    choose_one = "xpath=>//*[@id='datagrid-row-r1-1-0']/td[2]/div/input"
+    frame4 = 'ShowCustInfoList'
+    def add_geren(self):      #添加个人办件并保存
+        self.wait_goframe(self.wait_frame2)
+        time.sleep(1)
+        self.click(self.geren)
+        time.sleep(1)
+        self.click(self.choose_ren)
+        time.sleep(2)
+        self.select_frame(self.frame4)
+        self.click(self.choose_one)
+        self.click(self.confirm_button)
+        time.sleep(2)
+        self.top_windows()
+        self.click(self.save_button)
+        #self.wait_element(self.alert_message)
+        time.sleep(3)
+
 
     def get_message(self):
         message1 = self.get_element_text(self.next_material)
@@ -94,7 +110,7 @@ class ProcessPage(BasePage):
     input = 'id=>contents'
     save_input = 'id=>savePaperStuff'
 
-    def upload_material(self,result,advise,stuff_ad):
+    def upload_material(self,stuff_ad):
         #上传文件并审核意见
         self.click(self.material)
         self.wait_goframe(self.wait_mframe)
@@ -163,8 +179,8 @@ class ProcessPage(BasePage):
         self.click(self.next_material)
         #self.wait_element(self.wait_tiaoguo)
         time.sleep(3)
-        self.click(self.cancel_button)
-        time.sleep(3)
+        # self.click(self.cancel_button)
+        # time.sleep(3)
 
         #点击保存承办并转入审核 #点击保存审核并进入批准，# 点击保存办结并进入下一步，此处共用。
     def save_chenban(self):
@@ -173,17 +189,17 @@ class ProcessPage(BasePage):
         self.click(self.next_material)
         time.sleep(3)
 
-        #点击出件并结束
+        # 点击出件并结束
     def end(self):
         self.click(self.save_button)
         time.sleep(1)
         self.click(self.next_material)
         #self.wait_element(self.wait_tiaoguo)
-        time.sleep(1)
-        self.click(self.cancel_button)
+        # time.sleep(1)
+        # self.click(self.cancel_button)
         time.sleep(4)
 
-    #获取全部窗口进行校验是否正常结束流程并关闭窗口
+    # 获取全部窗口进行校验是否正常结束流程并关闭窗口
     def get_allwindows(self):
         handles = self.driver.window_handles
         return handles

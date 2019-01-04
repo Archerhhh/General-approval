@@ -1,0 +1,63 @@
+2019-01-03 17:27:40,849 - BrowserEngine - INFO - you had select Chrome browser.
+2019-01-03 17:27:40,851 - BrowserEngine - INFO - The test server url is:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 17:27:45,298 - BrowserEngine - INFO - Starting chrome browser.
+2019-01-03 17:27:45,765 - BrowserEngine - INFO - Open url:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 17:27:46,881 - BrowserEngine - INFO - Maxmize the current window.
+2019-01-03 17:27:46,884 - BrowserEngine - INFO - Set implicitly wait 8 seconds.
+2019-01-03 17:27:46,948 - BasePage - INFO - Had find the element '  ' successful by id via value: j_username 
+2019-01-03 17:27:47,003 - BasePage - INFO - Had type ' ceshi1 ' in inputBox
+2019-01-03 17:27:47,029 - BasePage - INFO - Had find the element '  ' successful by id via value: j_password 
+2019-01-03 17:27:47,094 - BasePage - INFO - Had type ' abc123456! ' in inputBox
+2019-01-03 17:27:47,121 - BasePage - INFO - Had find the element ' 登    录 ' successful by xpath via value: //*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1] 
+2019-01-03 17:27:47,453 - BasePage - INFO - The element ' 登    录 ' was clicked.
+2019-01-03 17:27:49,526 - BasePage - INFO - had wait for the element: 欢迎您！
+2019-01-03 17:27:49,555 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@href="/ApprControl/apprItem/toItemDefToAcceptNew.do?isFta=0"] 
+2019-01-03 17:27:49,578 - BasePage - INFO - had click the button:
+2019-01-03 17:27:52,585 - BasePage - INFO - had came back to the main frame
+2019-01-03 17:28:02,651 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"nav_sbcl"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:28:02,973 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:28:02,976 - BasePage - INFO - had came back to the main frame
+2019-01-03 17:28:02,977 - BasePage - INFO - had came back to the main frame
+2019-01-03 17:28:13,009 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:28:13,375 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:28:23,394 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:28:23,727 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:28:33,785 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSend"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:28:34,095 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:28:44,121 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:28:44,428 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:28:54,467 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:28:54,765 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:29:04,786 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:29:05,108 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:29:15,148 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:29:15,463 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 17:29:25,519 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"doSave"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 17:29:25,819 - BasePage - INFO - Had take screenshot and save to folder : /screenshots

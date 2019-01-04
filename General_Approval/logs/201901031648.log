@@ -1,0 +1,121 @@
+2019-01-03 16:48:06,302 - BrowserEngine - INFO - you had select Chrome browser.
+2019-01-03 16:48:06,302 - BrowserEngine - INFO - The test server url is:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 16:48:10,726 - BrowserEngine - INFO - Starting chrome browser.
+2019-01-03 16:48:11,190 - BrowserEngine - INFO - Open url:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 16:48:12,292 - BrowserEngine - INFO - Maxmize the current window.
+2019-01-03 16:48:12,296 - BrowserEngine - INFO - Set implicitly wait 8 seconds.
+2019-01-03 16:48:12,351 - BasePage - INFO - Had find the element '  ' successful by id via value: j_username 
+2019-01-03 16:48:12,407 - BasePage - INFO - Had type ' admin ' in inputBox
+2019-01-03 16:48:12,431 - BasePage - INFO - Had find the element '  ' successful by id via value: j_password 
+2019-01-03 16:48:12,489 - BasePage - INFO - Had type ' abc123456 ' in inputBox
+2019-01-03 16:48:12,513 - BasePage - INFO - Had find the element ' 登    录 ' successful by xpath via value: //*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1] 
+2019-01-03 16:48:12,825 - BasePage - INFO - The element ' 登    录 ' was clicked.
+2019-01-03 16:48:14,904 - BasePage - INFO - had wait for the element: 欢迎您！
+2019-01-03 16:48:14,954 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:14,976 - BasePage - INFO - had click the button:
+2019-01-03 16:48:16,042 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:16,046 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:48:16,072 - BasePage - INFO - had changed the frame
+2019-01-03 16:48:16,098 - BasePage - INFO - Had find the element ' 添加顶级地区 ' successful by xpath via value: //span[contains(text(),'添加顶级地区')] 
+2019-01-03 16:48:16,213 - BasePage - INFO - The element ' 添加顶级地区 ' was clicked.
+2019-01-03 16:48:17,290 - BasePage - INFO - Had find the element ' 只能有一个顶级地区 ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2019-01-03 16:48:17,299 - BasePage - INFO - The element_text is: 只能有一个顶级地区
+2019-01-03 16:48:17,325 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2019-01-03 16:48:17,391 - BasePage - INFO - The element ' 确定 ' was clicked.
+2019-01-03 16:48:19,680 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:19,707 - BasePage - INFO - had click the button:
+2019-01-03 16:48:20,772 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:20,776 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:48:20,803 - BasePage - INFO - had changed the frame
+2019-01-03 16:48:20,829 - BasePage - INFO - Had find the element ' 增加下属地区 ' successful by xpath via value: //span[contains(text(),'增加下属地区')] 
+2019-01-03 16:48:20,921 - BasePage - INFO - The element ' 增加下属地区 ' was clicked.
+2019-01-03 16:48:21,976 - BasePage - INFO - Had find the element ' 请选择一个地区 ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2019-01-03 16:48:21,986 - BasePage - INFO - The element_text is: 请选择一个地区
+2019-01-03 16:48:22,010 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2019-01-03 16:48:22,072 - BasePage - INFO - The element ' 确定 ' was clicked.
+2019-01-03 16:48:24,342 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:24,365 - BasePage - INFO - had click the button:
+2019-01-03 16:48:25,433 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:25,438 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:48:25,466 - BasePage - INFO - had changed the frame
+2019-01-03 16:48:25,486 - BasePage - INFO - Had find the element ' 增加下属地区 ' successful by xpath via value: //span[contains(text(),'增加下属地区')] 
+2019-01-03 16:48:25,578 - BasePage - INFO - The element ' 增加下属地区 ' was clicked.
+2019-01-03 16:48:26,641 - BasePage - INFO - Had find the element ' 请选择一个地区 ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2019-01-03 16:48:26,655 - BasePage - INFO - The element_text is: 请选择一个地区
+2019-01-03 16:48:26,683 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2019-01-03 16:48:26,750 - BasePage - INFO - The element ' 确定 ' was clicked.
+2019-01-03 16:48:28,957 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:28,990 - BasePage - INFO - had click the button:
+2019-01-03 16:48:30,043 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:30,048 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:48:30,072 - BasePage - INFO - had changed the frame
+2019-01-03 16:48:30,098 - BasePage - INFO - Had find the element ' 删除地区 ' successful by xpath via value: //span[contains(text(),'删除地区')] 
+2019-01-03 16:48:30,186 - BasePage - INFO - The element ' 删除地区 ' was clicked.
+2019-01-03 16:48:31,240 - BasePage - INFO - Had find the element ' 请选择地区 ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2019-01-03 16:48:31,250 - BasePage - INFO - The element_text is: 请选择地区
+2019-01-03 16:48:31,269 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2019-01-03 16:48:31,334 - BasePage - INFO - The element ' 确定 ' was clicked.
+2019-01-03 16:48:33,579 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:33,609 - BasePage - INFO - had click the button:
+2019-01-03 16:48:34,663 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:34,665 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:48:34,694 - BasePage - INFO - had changed the frame
+2019-01-03 16:48:34,720 - BasePage - INFO - Had find the element ' 广东省 ' successful by xpath via value: //span[contains(text(),"广东省")] 
+2019-01-03 16:48:34,796 - BasePage - INFO - The element ' 广东省 ' was clicked.
+2019-01-03 16:48:34,818 - BasePage - INFO - Had find the element ' 增加下属地区 ' successful by xpath via value: //span[contains(text(),'增加下属地区')] 
+2019-01-03 16:48:34,917 - BasePage - INFO - The element ' 增加下属地区 ' was clicked.
+2019-01-03 16:48:34,921 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:48:34,923 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:48:34,963 - BasePage - INFO - had wait and changed frame
+2019-01-03 16:48:35,174 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@name='areaName'] 
+2019-01-03 16:48:35,224 - BasePage - INFO - Had type ' 江门市 ' in inputBox
+2019-01-03 16:48:35,247 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@name='jcAreaSeq'] 
+2019-01-03 16:48:35,295 - BasePage - INFO - Had type ' 440700 ' in inputBox
+2019-01-03 16:48:35,319 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //td[contains(text(),'区域等级')]/following-sibling::td//a[@class='textbox-icon combo-arrow'] 
+2019-01-03 16:48:35,397 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 16:48:35,444 - BasePage - INFO - Had find the element ' 地市级 ' successful by xpath via value: //div[contains(text(),'地市级')] 
+2019-01-03 16:48:35,509 - BasePage - INFO - The element ' 地市级 ' was clicked.
+2019-01-03 16:48:35,535 - BasePage - INFO - Had find the element '  ' successful by id via value: sumbitButton 
+2019-01-03 16:48:35,601 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 16:48:37,658 - BasePage - INFO - Had find the element ' 新增地区成功! ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2019-01-03 16:48:37,671 - BasePage - INFO - The element_text is: 新增地区成功!
+2019-01-03 16:48:37,697 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2019-01-03 16:48:37,772 - BasePage - INFO - The element ' 确定 ' was clicked.
+2019-01-03 16:48:39,986 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:40,013 - BasePage - INFO - had click the button:
+2019-01-03 16:48:41,073 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:41,078 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:48:41,105 - BasePage - INFO - had changed the frame
+2019-01-03 16:48:41,140 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //tr[@id='datagrid-row-r1-2-1']//td[@field='areaName']//span 
+2019-01-03 16:48:41,220 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 16:48:42,290 - BasePage - INFO - Had find the element ' 江门市 ' successful by xpath via value: //span[contains(text(),'江门市')] 
+2019-01-03 16:48:42,369 - BasePage - INFO - The element ' 江门市 ' was clicked.
+2019-01-03 16:48:42,397 - BasePage - INFO - Had find the element ' 编辑地区 ' successful by xpath via value: //span[contains(text(),'编辑地区')] 
+2019-01-03 16:48:42,486 - BasePage - INFO - The element ' 编辑地区 ' was clicked.
+2019-01-03 16:48:44,496 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:48:44,568 - BasePage - INFO - had wait and changed frame
+2019-01-03 16:48:44,599 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //input[@name= 'monitorPhone'] 
+2019-01-03 16:48:44,660 - BasePage - INFO - Had type ' 020-87239712 ' in inputBox
+2019-01-03 16:48:44,677 - BasePage - INFO - Had find the element '  ' successful by id via value: sumbitButton 
+2019-01-03 16:48:44,775 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 16:48:46,835 - BasePage - INFO - Had find the element ' 编辑地区成功! ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2019-01-03 16:48:46,845 - BasePage - INFO - The element_text is: 编辑地区成功!
+2019-01-03 16:48:46,865 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2019-01-03 16:48:46,941 - BasePage - INFO - The element ' 确定 ' was clicked.
+2019-01-03 16:48:49,135 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:49,163 - BasePage - INFO - had click the button:
+2019-01-03 16:48:50,213 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:48:50,217 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:48:50,243 - BasePage - INFO - had changed the frame
+2019-01-03 16:48:50,263 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //tr[@id='datagrid-row-r1-2-1']//td[@field='areaName']//span 
+2019-01-03 16:48:50,335 - BasePage - INFO - The element '  ' was clicked.
+2019-01-03 16:48:51,371 - BasePage - INFO - Had find the element ' 江门市 ' successful by xpath via value: //span[contains(text(),'江门市')] 
+2019-01-03 16:48:51,444 - BasePage - INFO - The element ' 江门市 ' was clicked.
+2019-01-03 16:48:51,470 - BasePage - INFO - Had find the element ' 删除地区 ' successful by xpath via value: //span[contains(text(),'删除地区')] 
+2019-01-03 16:48:51,555 - BasePage - INFO - The element ' 删除地区 ' was clicked.
+2019-01-03 16:48:51,592 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2019-01-03 16:48:51,653 - BasePage - INFO - The element ' 确定 ' was clicked.
+2019-01-03 16:48:53,713 - BasePage - INFO - Had find the element ' 删除地区成功! ' successful by xpath via value: //div[@class='messager-body panel-body panel-body-noborder window-body'] 
+2019-01-03 16:48:53,723 - BasePage - INFO - The element_text is: 删除地区成功!
+2019-01-03 16:48:53,747 - BasePage - INFO - Had find the element ' 确定 ' successful by xpath via value: //span[contains(text(),'确定')] 
+2019-01-03 16:48:53,819 - BasePage - INFO - The element ' 确定 ' was clicked.

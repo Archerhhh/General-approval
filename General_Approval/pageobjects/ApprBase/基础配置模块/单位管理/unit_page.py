@@ -7,9 +7,11 @@ from selenium.webdriver.common.by import By
 class UnitPage(BasePage):
     unit_model = 'xpath=>//a[@href="/ApprBase/admin/system/unit/toListUnit.do"]'  #打开模块并切换页面
     frame0 = "xpath=>//iframe[@src='/ApprBase/admin/system/unit/toListUnit.do']"
+    wait_top = (By.XPATH,'//*[@id="addTopUnit"]/span/span[1]')
     add_top = "xpath=>//span[contains(text(),'增加顶级单位')]"
     edit_frame = (By.NAME,'edit')
     diqu = "xpath=>//a[@class='textbox-icon combo-arrow']"   #选择所属地区
+    wait_diqu = (By.XPATH,'//*[@id="submitForm"]/table/tbody/tr[1]/td[2]/span[1]/span/a')
     xiala = "xpath=>//div[@id='_easyui_tree_2']//span[@class='tree-hit tree-collapsed']"
     choose = 'xpath=>//span[contains(text(),"广东省")]'
     unit_name = "xpath=>//input[@name='unitName']" #填写地区名称
@@ -17,20 +19,23 @@ class UnitPage(BasePage):
 
     def add_tunit(self,name):   #新增增加顶级单位
         self.execute_js(self.unit_model)
-        time.sleep(2)
+        time.sleep(1)
         self.select_frame(self.find_element(self.frame0))
+        self.wait_element(self.wait_top)
         self.click(self.add_top)
         time.sleep(1)
-        self.top_windows()
         self.wait_goframe(self.edit_frame)
+        self.wait_element(self.wait_diqu)
         self.click(self.diqu)
         self.click(self.xiala)
         time.sleep(1)
         self.click(self.choose)
         self.type(self.unit_name,name)
         self.click(self.tijiao)
-        time.sleep(2)
+        time.sleep(1)
+        self.wait_element(self.wait_al)
 
+    wait_al = (By.XPATH,'/html/body/div[3]/div[2]/div[2]')
     alert = "xpath=>//div[@class='messager-body panel-body panel-body-noborder window-body']"
     close_alert = "xpath=>//span[contains(text(),'确定')]"
     def get_message(self):     #获取提交后的弹窗信息
@@ -45,6 +50,7 @@ class UnitPage(BasePage):
 
     def try_child(self):  #点击新增下级单位并关闭弹窗
         self.execute_js(self.unit_model)
+        time.sleep(1)
         self.select_frame(self.find_element(self.frame0))
         self.click(self.add_xiaji)
         message = self.get_element_text(self.tanchuang)
@@ -53,6 +59,7 @@ class UnitPage(BasePage):
         return message
 
     unitname = "id=>unitName"
+    wait_unit = (By.ID,'unitName')
     query = "xpath=>//input[@value='查 询']"
     quan_xuan = "xpath=>//input[@type='checkbox']"
     keshi_chu="xpath=>//span[contains(text(),'增加处/科室')]"
@@ -60,8 +67,9 @@ class UnitPage(BasePage):
     submit = "id=>sumbitButton"
     def add_keshi(self,unit,keshi):   #新增科室
         self.execute_js(self.unit_model)
-        time.sleep(2)
+        time.sleep(1)
         self.select_frame(self.find_element(self.frame0))
+        self.wait_element(self.wait_unit)
         self.type(self.unitname,unit)
         self.click(self.query)
         time.sleep(1)
@@ -143,6 +151,7 @@ class UnitPage(BasePage):
 
     def query_fuzeren(self,name):    #通过负责人进行查询
         self.execute_js(self.unit_model)
+        time.sleep(1)
         self.select_frame(self.find_element(self.frame0))
         self.type(self.fuzeren,name)
         self.click(self.query)
@@ -153,6 +162,7 @@ class UnitPage(BasePage):
 
     def delete_unit(self,unit):  #删除单位
         self.execute_js(self.unit_model)
+        time.sleep(1)
         self.select_frame(self.find_element(self.frame0))
         self.type(self.unitname, unit)
         self.click(self.query)

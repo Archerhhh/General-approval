@@ -8,6 +8,7 @@ class JobsPage(BasePage):
     model = "xpath=>//a[@href='/ApprBase/admin/system/role/toListPosition.do']"
     model_frame = "xpath=>//iframe[@src='/ApprBase/admin/system/role/toListPosition.do']"
     add_button = "xpath=>//span[contains(text(),'新增岗位')]"
+    wait_button = (By.XPATH,'//span[text()="新增岗位"]')
     add_frame = (By.NAME,'new')
     edit_frame = (By.NAME,"edit")
     unit_frame = (By.NAME,"selectUnit")
@@ -21,7 +22,9 @@ class JobsPage(BasePage):
 
     def add_jobs(self,name,unit):   #新增岗位
         self.execute_js(self.model)
+        time.sleep(1)
         self.select_frame(self.find_element(self.model_frame))
+        self.wait_element(self.wait_button)
         self.click(self.add_button)
         self.wait_goframe(self.add_frame)
         time.sleep(1)
@@ -47,6 +50,7 @@ class JobsPage(BasePage):
 
     def query_name(self,name):   #通过岗位名称进行查询
         self.execute_js(self.model)
+        time.sleep(1)
         self.select_frame(self.find_element(self.model_frame))
         self.type(self.model_name,name)
         self.click(self.query_button)
@@ -65,6 +69,7 @@ class JobsPage(BasePage):
 
     def query_diqu(self):   #通过地区进行查询
         self.execute_js(self.model)
+        time.sleep(1)
         self.select_frame(self.find_element(self.model_frame))
         self.click(self.diqu)
         time.sleep(1)
@@ -73,7 +78,7 @@ class JobsPage(BasePage):
         self.click(self.choose)
         time.sleep(1)
         self.click(self.query_button)
-        time.sleep(1)
+        time.sleep(2)
 
     suoshudiqu = "xpath=>//td[contains(text(),'所属地区')]//following-sibling::td//a[@class='textbox-icon combo-arrow']"
     choose_1 = "xpath=>//span[contains(text(),'广东省')]"
@@ -82,6 +87,7 @@ class JobsPage(BasePage):
 
     def query_danwei(self):    #通过单位进行查询
         self.execute_js(self.model)
+        time.sleep(1)
         self.select_frame(self.find_element(self.model_frame))
         self.click(self.suoshudiqu)
         time.sleep(1)
@@ -123,14 +129,19 @@ class JobsPage(BasePage):
         time.sleep(1)
 
     assign_p = "xpath=>//span[contains(text(),'分配权限')]"
-    choose_menu = "xpath=>//span[contains(text(),'文书系统')]//preceding-sibling::span[@class='tree-checkbox tree-checkbox0']"
+    tab1 = 'xpath=>//div[text()="审批系统"]'
+    tab2 = 'xpath=>//span[text()="工作台"]/../span[3]'
+    #choose_menu = "xpath=>//span[contains(text(),'文书系统')]//preceding-sibling::span[@class='tree-checkbox tree-checkbox0']"
     def assign_privilege(self,name):       #分配权限
         self.query_name(name)
         self.click(self.select)
         self.click(self.assign_p)
         time.sleep(1)
         self.wait_goframe(self.edit_frame)
-        self.click(self.choose_menu)
+        self.click(self.tab1)
+        time.sleep(1)
+        self.click(self.tab2)
+        #self.click(self.choose_menu)
         self.click(self.confirm)
         time.sleep(1)
 

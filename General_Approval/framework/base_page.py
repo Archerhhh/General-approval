@@ -1,8 +1,8 @@
-#-*- coding: UTF-8 -*-
+﻿#-*- coding: UTF-8 -*-
 import time
-import win32api
-import win32gui
-import win32con
+# import win32api
+# import win32gui
+# import win32con
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
@@ -48,10 +48,19 @@ class BasePage(object):
         self.driver.implicitly_wait(seconds)
         logger.info("wait for %d seconds." % seconds)
 
+    def wait_elclickable(self,locator):
+        try:
+            El = WebDriverWait(self.driver,15).until(EC.element_to_be_clickable(locator))
+            text = El.text
+            logger.info("had wait for the elclickable: %s"%text)
+        except TimeoutError as e:
+            logger.error("can't wait fort the elclickable:%s"%e)
+            self.get_windows_img()
+
         #显式等待某个元素
     def wait_element(self, locator):
         try:
-            El = WebDriverWait(self.driver,10).until(EC.presence_of_element_located(locator))
+            El = WebDriverWait(self.driver,15).until(EC.presence_of_element_located(locator))
             text = El.text
             logger.info("had wait for the element: %s"%text)
         except TimeoutError as e:
@@ -63,7 +72,7 @@ class BasePage(object):
         #显式等待多个元素,locator定位一组元素
     def wait_elements(self,locator):
         try:
-            WebDriverWait(self.driver,10).until(EC.presence_of_all_elements_located(locator))
+            WebDriverWait(self.driver,15).until(EC.presence_of_all_elements_located(locator))
             logger.info("had wait for all elements")
         except TimeoutError as e:
             logger.error("can't wait for elements:%s"%e)
@@ -73,7 +82,7 @@ class BasePage(object):
     def wait_goframe(self,locator):
         try:
             self.top_windows()
-            WebDriverWait(self.driver, 10).until(EC.frame_to_be_available_and_switch_to_it(locator))
+            WebDriverWait(self.driver, 15).until(EC.frame_to_be_available_and_switch_to_it(locator))
             logger.info("had wait and changed frame")
         except TimeoutError as e:
             logger.error("can't wait for frame:%s"%e)
@@ -82,7 +91,7 @@ class BasePage(object):
             #嵌套的ifram不需要切回主窗口，一层层切换进去。
     def wait_gonextframe(self, locator):
         try:
-            WebDriverWait(self.driver, 10).until(EC.frame_to_be_available_and_switch_to_it(locator))
+            WebDriverWait(self.driver, 15).until(EC.frame_to_be_available_and_switch_to_it(locator))
             logger.info("had wait and changed frame")
         except TimeoutError as e:
             logger.error("can't wait for frame:%s" % e)
@@ -91,7 +100,7 @@ class BasePage(object):
         #显式等待弹窗
     def wait_alert(self):
         try:
-            WebDriverWait(self.driver,10).until(EC.alert_is_present())
+            WebDriverWait(self.driver,15).until(EC.alert_is_present())
             logger.info("had wait for the alert")
         except TimeoutError as e:
             logger.error("can't wait for alert:%s"%e)
@@ -100,7 +109,7 @@ class BasePage(object):
         #显式等待元素内容变成指定内容
     def wait_eltext(self,locator,text):  #locator内容需要括号括起来
         try:
-            WebDriverWait(self.driver,10).until(EC.text_to_be_present_in_element(locator,text))
+            WebDriverWait(self.driver,15).until(EC.text_to_be_present_in_element(locator,text))
             logger.info('had wait for the text loaded:%s'%text)
         except TimeoutError as e:
             logger.error("can't wait for the text loaded:%s"%e)
@@ -109,7 +118,7 @@ class BasePage(object):
     #显式等待元素的值为text，一般用于输入框
     def wait_elvalue(self,locator,text):
         try:
-            WebDriverWait(self.driver,10).until(EC.text_to_be_present_in_element_value(locator,text))
+            WebDriverWait(self.driver,15).until(EC.text_to_be_present_in_element_value(locator,text))
             logger.info('had wait for the input value:%s'%text)
         except TimeoutError as e:
             logger.error("can't wait for the input value:%s"%e)
@@ -248,6 +257,16 @@ class BasePage(object):
         except NameError as e:
             logger.error("failed to get text:%s"%e)
 
+     # 获取input里的内容
+    def get_input_text(self,selector):
+        el = self.find_element(selector)
+        try:
+            input_text = el.get_attribute('value')
+            logger.info("the input_text is:%s"% input_text)
+            return input_text
+        except NameError as e:
+            logger.error("failed to get input value:%s"%e)
+
         # 鼠标悬停操作
     def mouse_stop(self, selector):
         element = self.find_element(selector)
@@ -342,7 +361,7 @@ class BasePage(object):
     def scrollby_element(self,selector):
         el = self.find_element(selector)
         try:
-            self.driver.excute_script("argument[0],scrollIntoView();",el)
+            self.driver.excute_script("arguments[0].scrollIntoView(true);",el)
             logger.info("had scroll to the element target ")
         except NameError as e:
             logger.error("can't scoll to the element:%s"%e)
@@ -360,6 +379,7 @@ class BasePage(object):
             self.get_windows_img()
 
         #通过pywin32进行文件上传操作。
+    '''
     def upload(self,windowtitle,filepath):
         dialog = win32gui.FindWindow('#32770', windowtitle)  # 对话框
         ComboBoxEx32 = win32gui.FindWindowEx(dialog, 0, 'ComboBoxEx32', None)
@@ -369,7 +389,7 @@ class BasePage(object):
 
         win32gui.SendMessage(Edit, win32con.WM_SETTEXT, None, filepath)  # 往输入框输入绝对地址
         win32gui.SendMessage(dialog, win32con.WM_COMMAND, 1, button)  # 按button
-
+    '''
         # 通过JS来点击元素。
     def execute_js(self,selector):
         element = self.find_element(selector)

@@ -19,7 +19,7 @@ class Menu(unittest.TestCase):
     def test_menu01(self):
         u"""新增顶级节点"""
         menu = MenuPage(self.driver)
-        menu.add_top("http://baidu.com")
+        menu.add_top('www.baidu.com')
         try:
             message = menu.get_message()
             self.assertEqual("保存成功！",message)

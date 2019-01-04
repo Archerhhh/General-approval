@@ -121,7 +121,9 @@ class RolePage(BasePage):
         return message
 
     assign_p = "xpath=>//span[contains(text(),'分配权限')]"
-    wenshu = "xpath=>//span[contains(text(),'文书系统')]//preceding-sibling::span[@class='tree-checkbox tree-checkbox0']"
+    tab1 = 'xpath=>//div[text()="审批系统"]'
+    tab2 = 'xpath=>//span[text()="工作台"]/../span[3]'
+    #wenshu = "xpath=>//span[contains(text(),'文书系统')]//preceding-sibling::span[@class='tree-checkbox tree-checkbox0']"
 
     def assign_privelege(self,name):
         self.query_role(name)
@@ -129,9 +131,11 @@ class RolePage(BasePage):
         self.click(self.assign_p)
         time.sleep(1)
         self.wait_goframe(self.edit_frame)
-        self.click(self.wenshu)
+        self.click(self.tab1)
+        time.sleep(1)
+        self.click(self.tab2)
         self.click(self.confirm)
-        time.sleep(2)
+        time.sleep(1)
 
     delete_button = "xpath=>//span[contains(text(),'删除角色')]"
     def delete_role(self,name):

@@ -25,9 +25,11 @@ suite = unittest.TestLoader().discover(suite_path)
 if __name__ == '__main__':
 
     with open(HtmlFile, 'wb') as fp:   # 打开测试报告文件，用于写入测试报告
-        runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u"政务系统自动化测试报告", description=u"备注：测试报告附件请用chorome打开，否则无法展开详情",verbosity=2)
+        runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u"政务系统自动化测试报告",
+                                               description=u"备注：测试报告附件请用chorome打开，否则无法展开详情",
+                                               verbosity=2)
         runner.run(suite)
     # 调用自动发邮件方法
-    email_report = EmailReport()
-    email_report.send_report()
+    # email_report = EmailReport()
+    # email_report.send_report()
     logger = logger(logger="TestRunner").remove_logs()

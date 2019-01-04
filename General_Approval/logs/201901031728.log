@@ -1,0 +1,16 @@
+2019-01-03 17:28:55,073 - BrowserEngine - INFO - you had select Chrome browser.
+2019-01-03 17:28:55,073 - BrowserEngine - INFO - The test server url is:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 17:28:59,790 - BrowserEngine - INFO - Starting chrome browser.
+2019-01-03 17:29:00,259 - BrowserEngine - INFO - Open url:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 17:29:01,375 - BrowserEngine - INFO - Maxmize the current window.
+2019-01-03 17:29:01,378 - BrowserEngine - INFO - Set implicitly wait 8 seconds.
+2019-01-03 17:29:01,418 - BasePage - INFO - Had find the element '  ' successful by id via value: j_username 
+2019-01-03 17:29:01,470 - BasePage - INFO - Had type ' ceshi1 ' in inputBox
+2019-01-03 17:29:01,497 - BasePage - INFO - Had find the element '  ' successful by id via value: j_password 
+2019-01-03 17:29:01,565 - BasePage - INFO - Had type ' abc123456! ' in inputBox
+2019-01-03 17:29:01,595 - BasePage - INFO - Had find the element ' 登    录 ' successful by xpath via value: //*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1] 
+2019-01-03 17:29:01,960 - BasePage - INFO - The element ' 登    录 ' was clicked.
+2019-01-03 17:29:03,993 - BasePage - INFO - had wait for the element: 欢迎您！
+2019-01-03 17:29:04,019 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@href="/ApprControl/apprItem/toItemDefToAcceptNew.do?isFta=0"] 
+2019-01-03 17:29:04,042 - BasePage - INFO - had click the button:
+2019-01-03 17:29:07,045 - BasePage - INFO - had came back to the main frame

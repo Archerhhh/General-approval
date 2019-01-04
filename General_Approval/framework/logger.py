@@ -49,7 +49,7 @@ class logger(object):
         """到期删除日志,截图，报告文件"""
         dir_list = ['logs', 'screenshots','test_report']  # 要删除文件的目录名
         for dir in dir_list:
-            dirPath = getcwd.get_cwd() + '\\' + dir  # 拼接删除目录完整路径
+            dirPath = getcwd.get_cwd() + '/' + dir  # 拼接删除目录完整路径
             file_list = os.listdir(dirPath)  # 返回目录下的文件list
             for i in file_list:
                 file_path = os.path.join(dirPath, i)  # 拼接文件的完整路径

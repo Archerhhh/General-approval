@@ -18,7 +18,7 @@ class PositionPage(BasePage):
     query_unit = "id=>unitName"
     query_button = "xpath=>//input[@value='查 询']"
     choose_danwei = "xpath=>//span[contains(text(),'测试科')]"
-    confrim = "xpath=>//input[@value='确定']"
+    confirm = "xpath=>//input[@value='确定']"
     submit = "id=>sumbitButton"
 
 
@@ -41,7 +41,7 @@ class PositionPage(BasePage):
         self.click(self.query_button)
         time.sleep(1)
         self.click(self.choose_danwei)
-        self.click(self.confrim)
+        self.click(self.confirm)
         time.sleep(1)
         self.wait_goframe(self.add_frame)
         self.click(self.submit)
@@ -125,15 +125,19 @@ class PositionPage(BasePage):
         return message
 
     assign_p = "xpath=>//span[contains(text(),'分配权限')]"
-    system = "xpath=>//span[contains(text(),'文书系统')]//preceding-sibling::span[@class='tree-checkbox tree-checkbox0']"
+    tab1 = 'xpath=>//div[text()="审批系统"]'
+    tab2 = 'xpath=>//span[text()="工作台"]/../span[3]'
+    #system = "xpath=>//span[contains(text(),'文书系统')]//preceding-sibling::span[@class='tree-checkbox tree-checkbox0']"
     def assign_privelege(self,name):
         self.query_position(name)
         self.click(self.choose)
         self.click(self.assign_p)
         time.sleep(1)
         self.wait_goframe(self.edit_frame)
-        self.click(self.system)
-        self.click(self.confrim)
+        self.click(self.tab1)
+        time.sleep(1)
+        self.click(self.tab2)
+        self.click(self.confirm)
         time.sleep(1)
 
     delete_button = "xpath=>//span[contains(text(),'删除职务')]"

@@ -1,0 +1,83 @@
+2019-01-03 16:45:19,520 - BrowserEngine - INFO - you had select Chrome browser.
+2019-01-03 16:45:19,520 - BrowserEngine - INFO - The test server url is:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 16:45:23,926 - BrowserEngine - INFO - Starting chrome browser.
+2019-01-03 16:45:24,387 - BrowserEngine - INFO - Open url:http://192.168.0.133:7001/ApprBase/login.do?method=ApprBase
+2019-01-03 16:45:25,500 - BrowserEngine - INFO - Maxmize the current window.
+2019-01-03 16:45:25,503 - BrowserEngine - INFO - Set implicitly wait 8 seconds.
+2019-01-03 16:45:25,553 - BasePage - INFO - Had find the element '  ' successful by id via value: j_username 
+2019-01-03 16:45:25,604 - BasePage - INFO - Had type ' admin ' in inputBox
+2019-01-03 16:45:25,628 - BasePage - INFO - Had find the element '  ' successful by id via value: j_password 
+2019-01-03 16:45:25,690 - BasePage - INFO - Had type ' abc123456 ' in inputBox
+2019-01-03 16:45:25,716 - BasePage - INFO - Had find the element ' 登    录 ' successful by xpath via value: //*[@id='login-tabs-item']/div/div[2]/div/div[1]/div/a[1] 
+2019-01-03 16:45:26,075 - BasePage - INFO - The element ' 登    录 ' was clicked.
+2019-01-03 16:45:28,111 - BasePage - INFO - had wait for the element: 欢迎您！
+2019-01-03 16:45:28,137 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:45:28,161 - BasePage - INFO - had click the button:
+2019-01-03 16:45:28,186 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:45:28,187 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:45:28,207 - BasePage - INFO - had changed the frame
+2019-01-03 16:45:38,223 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'添加顶级地区')]"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 16:45:38,542 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 16:45:40,845 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:45:40,868 - BasePage - INFO - had click the button:
+2019-01-03 16:45:40,888 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:45:40,891 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:45:40,911 - BasePage - INFO - had changed the frame
+2019-01-03 16:45:50,940 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'增加下属地区')]"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 16:45:51,220 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 16:45:53,556 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:45:53,588 - BasePage - INFO - had click the button:
+2019-01-03 16:45:53,614 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:45:53,617 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:45:53,634 - BasePage - INFO - had changed the frame
+2019-01-03 16:46:03,703 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'增加下属地区')]"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 16:46:04,009 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 16:46:06,246 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:46:06,269 - BasePage - INFO - had click the button:
+2019-01-03 16:46:06,290 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:46:06,293 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:46:06,313 - BasePage - INFO - had changed the frame
+2019-01-03 16:46:16,351 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'删除地区')]"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 16:46:16,657 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 16:46:18,895 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:46:18,924 - BasePage - INFO - had click the button:
+2019-01-03 16:46:18,946 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:46:18,948 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:46:18,971 - BasePage - INFO - had changed the frame
+2019-01-03 16:46:29,036 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),"广东省")]"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 16:46:29,346 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 16:46:31,595 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:46:31,627 - BasePage - INFO - had click the button:
+2019-01-03 16:46:31,650 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:46:31,653 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:46:31,673 - BasePage - INFO - had changed the frame
+2019-01-03 16:46:41,713 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//tr[@id='datagrid-row-r1-2-1']//td[@field='areaName']//span"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 16:46:42,028 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-01-03 16:46:44,276 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //a[@href='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:46:44,305 - BasePage - INFO - had click the button:
+2019-01-03 16:46:44,325 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //iframe[@src='/ApprBase/admin/system/area/toListArea.do'] 
+2019-01-03 16:46:44,328 - BasePage - INFO - had came back to the main frame
+2019-01-03 16:46:44,348 - BasePage - INFO - had changed the frame
+2019-01-03 16:46:54,410 - BasePage - ERROR - NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//tr[@id='datagrid-row-r1-2-1']//td[@field='areaName']//span"}
+  (Session info: headless chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+2019-01-03 16:46:54,750 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
